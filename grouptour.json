@@ -1,0 +1,79 @@
+{
+  "tours": [
+    {
+      "videoUrl": "https://www.youtube.com/embed/Is8yrPbPTcw?si=ryFme04HTSfVyTwz",
+      "packageNameimg": "vacationideas.28.maritius.png",
+      "packageName": "Kerala Group Tour Package",
+      "pricePerPerson": "Starting From INR 20,500 Per Person",
+      "duration": "5 Nights 6 Days",
+      "destinationCovered": "Explore Periyar National Park, Munnar, Thekkady, Alleppey and Kochi.",
+      "inclusions": [
+        "Accommodation",
+        "Meals",
+        "Sightseeing",
+        "Transfers",
+        "Flight (in some packages)"
+      ]
+    },
+    {
+      "videoUrl": "https://www.youtube.com/embed/Is8yrPbPTcw?si=ryFme04HTSfVyTwz",
+      "packageNameimg": "vacationideas.28.maritius.png",
+      "packageName": "Goa Getaway",
+      "pricePerPerson": " Starting From INR 7,300 Per Person",
+      "duration": "3 Nights 4 Days",
+      "destinationCovered": " Enjoy the beaches, nightlife and culture of Goa.",
+      "inclusions": [
+        "Accommodation",
+        "Meals",
+        "Sightseeing",
+        "Transfers",
+        "Flight (in some packages)"
+      ]
+    },
+    {
+      "videoUrl": "https://www.youtube.com/embed/Is8yrPbPTcw?si=ryFme04HTSfVyTwz",
+      "packageNameimg": "vacationideas.28.maritius.png",
+      "packageName": "Uttarakhand Adventure",
+      "pricePerPerson": " Starting From INR 22,300 Per Person",
+      "duration": "4 Nights 5 Days",
+      "destinationCovered": " Visit Joshimath, Rishikesh and Delhi.",
+      "inclusions": [
+        "Accommodation",
+        "Meals",
+        "Sightseeing",
+        "Transfers",
+        "Flight (in some packages)"
+      ]
+    },
+    {
+      "videoUrl": "https://www.youtube.com/embed/Is8yrPbPTcw?si=ryFme04HTSfVyTwz",
+      "packageNameimg": "vacationideas.28.maritius.png",
+      "packageName": "Manali Escapade",
+      "pricePerPerson": " Starting From INR 11,500 Per Person",
+      "duration": "3 Nights 4 Days",
+      "destinationCovered": "Experience culture, adventure and natural wonders in Manali. ",
+      "inclusions": [
+        "Accommodation",
+        "Meals",
+        "Sightseeing",
+        "Transfers",
+        "Flight (in some packages)"
+      ]
+    },
+    {
+      "videoUrl": "https://www.youtube.com/embed/Is8yrPbPTcw?si=ryFme04HTSfVyTwz",
+      "packageNameimg": "vacationideas.28.maritius.png",
+      "packageName": "Heritage with Jyotirlinga (Indore to Jabalpur)",
+      "pricePerPerson": "  Starting From INR 28,900 Per Person",
+      "duration": "7 Nights 8 Days",
+      "destinationCovered": " 1N Indore – 1N Maheshwar – 1N Ujjain - 1N Bhopal – 2N Pachmarhi – 1N Jabalpur",
+      "inclusions": [
+        "Accommodation",
+        "Meals",
+        "Sightseeing",
+        "Transfers",
+        "Tour Manager and Guide (for more than 15 Pax)"
+      ]
+    }
+  ]
+}

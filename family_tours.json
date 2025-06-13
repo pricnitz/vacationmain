@@ -1,0 +1,95 @@
+{
+  "family_tours": [
+    {
+      "packageName": "Best of Singapore",
+      "pricePerPerson":"  Starting From INR 53,990 Per Person", 
+      "destinationCovered": "Singapore  ",
+      "duration": "5 Nights 6 Days",
+      "inclusions": [
+        "Accommodation",
+        "Breakfast",
+        "Sightseeing",
+        "Transfers"
+      ],
+      "notes": "Prices are per person on twin sharing basis | Peak season surcharges may apply | GST & TCS will be applicable"
+    },
+    {
+      "packageName": "Highlights Of Vietnam",
+      "pricePerPerson":" Starting From INR 54,990 Per Person", 
+      "destinationCovered":"2N Hanoi – 1N Halong Bay – 3N Ho Chi Minh",
+      "duration": "6 Nights 7 Days",
+      "inclusions": [
+        "Accommodation",
+        "Breakfast",
+        "Sightseeing",
+        "Transfers"
+      ]
+    },
+    {
+      "packageName": "Explore Japan",
+      "pricePerPerson":"  Starting From INR 48,390 Per Person", 
+      "destinationCovered":"  Tokyo – Kyoto – Osaka",
+      "duration": "8 Nights 9 Days",
+      "destinations": "3N Tokyo – 2N Kyoto – 3N Osaka",
+      "inclusions": [
+        "03 Nights stay at the selected hotel option or similar in Tokyo",
+        "02 Nights stay at the selected hotel option or similar in Kyoto",
+        "03 Nights stay at the selected hotel option or similar in Osaka",
+        "Daily breakfast, except on Day 1",
+        "All Tours and Transfers based on Private Basis and English-Speaking Driver cum Guide",
+        "Entrance Fees included for the mentioned sightseeing",
+        "Asakusa Kannon Temple & Nakamise Dori Street – Tokyo Skytree (350 m) – Team Labs",
+        "Day Trip to Nikko - Edo Wonderland, Lake Chuzenji, Kanmangafuchi Abyss",
+        "Day Trip to Mount Fuji – Lake Ashi Cruise, Owakudani Ropeway, Mount Fuji 5th Station. Bullet Train from Odawara – Kyoto",
+        "Kinkakuji Temple – Arashiyama Bamboo Forest – Experience Japanese Tea Ceremony – Fushimi Inari Shrine",
+        "Nara Deer Park – Todaiji Temple – Free Time at Shinsaibashi",
+        "Photo stop at Osaka Castle - Osaka Aquarium Kaiyukan - Umeda Sky Building",
+        "Day Trip to Hiroshima – Bullet Train Experience (Osaka – Hiroshima – Osaka) – Visit Miyajima Island – Visit Itsukushima Shrine – Photo stop at the Floating Tori Gate – Photo stop at Atomic Dome – Visit Peace Memorial Park and Museum",
+        "Travel Insurance - Valid up to the age of 60 years"
+      ]
+    },
+    {
+      "packageName": "Europe for All (Zurich to Paris) - Summer 2025",
+      "pricePerPerson":"Starting From INR 222,900 Per Person", 
+      "destinationCovered":"3N Zurich – 1N Frankfurt – 1N Brussels – 2N Paris",
+      "duration": "7 Nights 8 Days",
+      "destinations": ["3N Zurich", "1N Frankfurt", "1N Brussels", "2N Paris"],
+      "inclusions": [
+        "03 Nights at Ibis Zurich / B&B Oftringen / Holiday Inn Express Neunkirch or similar in Zurich, Switzerland.",
+        "01 Night at Holiday Inn Express / Achat / Ibis or similar in Frankfurt, Germany.",
+        "01 Night at Hotel Ramada Brussels Woulwe / Best Western or similar in Brussels, Belgium.",
+        "02 Nights at Moxy CDG / Hotel Inn CDG / Ibis Syles CDG or similar in Paris (CDG area), France",
+        "Daily Continental Breakfast (Breakfast includes Bread, Butter, Jam, Cereals, Juice, Milk & Coffee)",
+        "03 Indian Jain / Vegetarian / Non-Vegetarian Lunches.",
+        "07 Indian Jain / Vegetarian / Non-Vegetarian Dinners.",
+        "Return economy class group airfare as per the itinerary.",
+        "All local taxes and services as of 30th September 2024.",
+        "Cost of Visa and Medical Insurance for the duration of the tour.",
+        "Sightseeing and accommodation as per the above-mentioned itinerary.",
+        "All transfers and extensive excursions with entrance fees (as specified in the itinerary) by a deluxe air-conditioned coach.",
+        "Services of a professional, friendly and multilingual Tour Manager or a local Representative. (Subject to minimum 15 customers)."
+      ]
+    },
+    {
+      "packageName": "East European Dhamaka – Summer 2025",
+      "pricePerPerson":" Starting From INR 205,999 Per Person", 
+      "destinationCovered":" 1N Vienna – 2N Prague – 3N Budapest – 1N Vienna",
+      "duration": "7 Nights 8 Days",
+      "inclusions": [
+        "1 Night at Hotel Life Hotel / B&B Hotel / IBIS or similar in Vienna (Airport Area), Austria.",
+        "2 Nights at Hotel Pentahotel / IBIS or similar in Prague, Czech Republic.",
+        "3 Nights at Hotel Amadeus / Ibis or similar in Budapest, Hungary.",
+        "1 Night at Hotel Life Hotel / B&B Hotel hotel / IBIS or similar in Vienna, Austria.",
+        "Daily continental breakfast (Breakfast includes bread, butter, jam, cereals, fruit juice, milk and coffee)",
+        "03 Basic Indian Jain / vegetarian / non-vegetarian lunches.",
+        "07 Basic Indian Jain / vegetarian / non-vegetarian dinners.",
+        "Return economy class group airfare as per the itinerary.",
+        "All local taxes and services as of 30th September 2024.",
+        "Cost of Visa and Medical Insurance for the duration of the tour.",
+        "Sightseeing and accommodation as per the above-mentioned itinerary.",
+        "All transfers and extensive excursions with entrance fees (as specified in the itinerary) by a deluxe air-conditioned coach.",
+        "Services of a professional, friendly and multilingual Tour Manager or a local Representative. (Subject to minimum 15 customers)."
+      ]
+    }
+  ]
+}

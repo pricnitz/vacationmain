@@ -1,0 +1,112 @@
+{
+  "corporate_tours": [
+    {
+      "name": "Magnificent Pachmarhi",
+      "duration": "2 Nights 3 Days",
+      "starting_from": {
+        "amount": 5900,
+        "currency": "INR",
+        "per": "Person",
+        "min_pax": 15
+      },
+      "inclusions": [
+        "Accommodation in well-appointed rooms with air conditioning at Hotel",
+        "Daily Buffet/fixed Breakfast at Hotel (except day of arrival)",
+        "AC Vehicle Sedan/Innova as per no of pax",
+        "Exclusive Private car for all sightseeing and transfers",
+        "Parking Charges, Toll & Driver Allowances."
+      ]
+    },
+    {
+      "name": "Jabalpur Kanha Weekend Tour",
+      "duration": "2 Nights 3 Days",
+      "destinations": ["1N Jabalpur", "1N Kanha"],
+      "starting_from": {
+        "amount": 9500,
+        "currency": "INR",
+        "per": "Person"
+      },
+      "inclusions": [
+        "Accommodation in well-appointed room as per the selected hotel category",
+        "Sightseeing as per itinerary",
+        "Exclusive Private vehicle for all sightseeing and transfers",
+        "Meal Plan as per the selected plan",
+        "Parking Charges, Toll & Driver Allowances"
+      ]
+    },
+    {
+      "name": "Hampi Heritage Tour",
+      "duration": "3 Nights 4 Days",
+      "destinations": ["1N Bengaluru", "2N Hampi"],
+      "starting_from": {
+        "amount": 15800,
+        "currency": "INR",
+        "per": "Person"
+      },
+      "inclusions": [
+        "Accommodation in a well-appointed room as per the selected hotel category",
+        "Meal Plan as per the selected plan",
+        "Sightseeing as per itinerary",
+        "Return airport transfer",
+        "Exclusive Private vehicle for all sightseeing and transfer"
+      ]
+    },
+    {
+      "name": "Singapore Getaway",
+      "duration": "4 Nights 5 Days",
+      "starting_from": {
+        "amount": 94600,
+        "currency": "INR",
+        "per": "Adult"
+      },
+      "inclusions": [
+        "04 Nights accommodation at M Social/ Ibis Bencoolen or similar in Singapore",
+        "04 Continental breakfast",
+        "04 Dinners at Indian restaurants",
+        "Note: Packed lunches, if applicable, will be Jain/vegetarian",
+        "Guided City Tour of Singapore",
+        "Visit Gardens By the Bay : Flower Dome + Cloud Forest",
+        "Visit Mandai Bird Park",
+        "Visit MBS Sky Park (Non Peak Timings)",
+        "Visit Sentosa Island by One way Cable car ride",
+        "Madame Tussauds with Bollywood Avenue, Spirit of Singapore, Images of Singapore, 4D Marvel Show",
+        "Wings of Time Show",
+        "Return economy class airfare as per the itinerary.",
+        "Accommodations at the hotels specified above or similar.",
+        "Singapore Visa & Airport taxes (Any further increase in the same has to be borne by the guest).",
+        "Services of a professional & multilingual Tour Manager/ local representative. (subjected to minimum 25 customers)",
+        "Cost of the ticket taxes for the above itinerary as of 1st Dec 2023.",
+        "Medical insurance for the duration of the tour is included in the tour price. However, any passenger above the age of 60 years and those who wish to extend their stay will be required to pay additional charges.",
+        "Meals, transfers, entrances, sightseeing and surface transport as mentioned in the itinerary"
+      ]
+    },
+    {
+      "name": "Asian Dhamaka With Bintan",
+      "duration": "8 Nights 9 Days",
+      "destinations": ["3N Kuala Lumpur", "3N Singapore", "2N Bintan Island"],
+      "starting_from": {
+        "amount": 123500,
+        "currency": "INR",
+        "per": "Adult"
+      },
+      "inclusions": [
+        "03 Nights accommodation at Hotel Metro / Hotel Sentral Pudu / The Pearl Kuala Lumpur or similar in Kuala Lumpur",
+        "03 Nights accommodation at M Social / IBIS Bencoolen or similar in Singapore",
+        "02 Nights accommodation at Hotel Grand Lagoi Bintan or similar in Bintan",
+        "08 Continental breakfast (Except Day 1)",
+        "08 Dinners at Indian restaurants",
+        "Note: Packed lunches, if applicable, will be Jain/vegetarian",
+        "Return economy class airfare as per the itinerary.",
+        "Accommodations at the hotels specified above or similar.",
+        "Singapore Visa & Airport taxes (Any further increase in the same has to be borne by the guest).",
+        "Services of a professional & multilingual Tour Manager/ local representative. (subject to minimum 25 customers)",
+        "Cost of the ticket taxes for the above itinerary as of 1st Dec 2024.",
+        "Medical insurance for the duration of the tour is included in the tour price. However, any passenger above the age of 60 years and those who wish to extend their stay will be required to pay additional charges.",
+        "Meals, transfers, entrances, sightseeing and surface transport as mentioned in the itinerary.",
+        "Kuala Lumpur: Photo stop at PETRONAS Twin Tower, Orientation Tour of Putrajaya, Visit Batu Caves, Guided City Tour of Kuala Lumpur, Visit to chocolate Boutique, Genting Highlands with 2 ways cable car, Visit Genting Skyworld Theme Park, Visit Sunway Lagoon (Optional)",
+        "Singapore: Visit Gardens By the Bay - Visit Flower Dome + Cloud Forest, Guided city tour of Singapore, Visit Mandai Bird Paradise, Visit MBS Sky Park (Non Peak Time), Visit Sentosa Island by One way Cable car ride, Madame Tussauds with Bollywood Avenue, Spirit of Singapore, Images of Singapore, 4D Marvel show, Wings of Time Show, Visit Universal Studios & Sea Aquarium (Optional)",
+        "Bintan - Indonesia: Relax and Explore the exotic Bintan Islands"
+      ]
+    }
+  ]
+}
