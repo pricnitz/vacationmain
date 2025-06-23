@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Satisfy&display=swap');
+
+    /* font name */
+    $font-Rubik:"Rubik", serif;
+    $font-Satisfy:"Satisfy", serif;
+    $font-Jost:"Jost", serif;
+    /* font name */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-Rubik;
+  color: $black;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  background-color: $white;
+  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-Rubik;
+  font-weight: 600;
+  line-height: 1.4;
+  color:var(--title-color);
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+i.bx {
+  vertical-align: middle;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family:$font-Jost;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 0px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

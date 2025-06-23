@@ -1,0 +1,150 @@
+.package-grid-section {
+   
+
+    .right-side-content {
+        .package-inner-title {
+                p {
+                    font-family: $font-Rubik;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    color: $paragraph;
+                }
+            }
+        .short-item {
+            display: flex;
+            align-items: baseline;
+            gap: 6px;
+
+            span {
+                font-family: $font-Rubik;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 26px;
+                color: $paragraph;
+                margin: 0;
+            }
+        }
+
+        .form-inner {
+            position: relative;
+            line-height: 1;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+
+            input {
+                color: rgba(255, 255, 255, 0.8);
+                font-family: $font-Rubik;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 24px;
+                display: block;
+                outline: none;
+                background-color: transparent;
+                width: 100%;
+            }
+        }
+    }
+
+    .nice-select {
+        font-family: $font-Rubik;
+        font-size: 16px;
+        font-weight: 400;
+        border: 1px solid rgba(17, 17, 17, 0.1);
+        border-radius: 5px;
+        max-width: 172px;
+        width: 100%;
+        height: 34px;
+        padding-top: 5px;
+        padding-left: 12px;
+
+        &::after {
+            height: unset;
+            width: unset;
+            border-bottom: unset;
+            border-right: unset;
+            right: 8px;
+            top: 8px;
+            transform: unset;
+            transition: all 0.15s ease-in-out;
+            content: url(../image/svg/arrow-up-icon.svg);
+        }
+
+        &.open {
+            &::after {
+                content: url(../image/svg/arrow-down-icon.svg);
+            }
+        }
+
+        &:focus {
+            border-color: $primary-color;
+        }
+
+        .current {
+            color: rgba(17, 17, 17, 0.8);
+            font-family: $font-Jost;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            margin: 0;
+        }
+
+        .list {
+            background-color: #1d2026;
+            width: 100%;
+
+            .option {
+                color: $white;
+
+                &.selected {
+                    &.focus {
+                        background-color: $primary-color;
+                    }
+                }
+
+                &:hover {
+                    color: $white;
+                    background-color: $primary-color;
+                }
+            }
+        }
+    }
+
+    .inner-pagination-area {
+        .pagination-list {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+
+            li {
+                border: 1px solid rgba(17, 17, 17, 0.15);
+                height: 40px;
+                width: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                transition: 0.3s;
+                a {
+                    font-family: $font-Rubik;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    color: rgba(17, 17, 17, 0.5);
+                    transform: 0.3s;
+
+                }
+
+                &:hover {
+                    background-color:rgba(0, 0, 0, 1);
+
+                    a {
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+}

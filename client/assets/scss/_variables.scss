@@ -1,0 +1,22 @@
+:root {
+  // --------------Colors ---------------
+  --primary-color: rgba(77, 166, 39, 1);
+  --primary-color-three: rgba(243, 128, 53, 1);
+  --primary-color-opc: rgba(16, 197, 129, 0.5);
+  --primary-color-opc-2: rgba(98, 192, 58, 0.45);
+  --title-color: rgba(17, 17, 17, 1);
+  --title-color-opp: rgba(17, 17, 17, 0.9);
+  --white-color: rgba(255, 255, 255, 1);
+  --white-color-opp: rgba(255, 255, 255, 0.7);
+  --paragraph-color: rgba(102, 102, 102, 1);
+}
+
+// Theme Color - Default Colors
+$primary-color: var(--primary-color);
+$primary-color-three: var(--primary-color-three);
+$primary-color-two: var(--primary-color-opc-2);
+$black: var(title-color);
+$black-opp: var(--title-color-opp);
+$white: var(--white-color);
+$white-opp: var(--white-color-opp);
+$paragraph: var(--paragraph-color);

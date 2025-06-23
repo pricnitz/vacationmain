@@ -1,0 +1,93 @@
+<?php
+include('view/header.php')
+?>
+
+    <main >
+        <section class="hero pageshero">
+            <div class="container">
+                <div class="row">
+                    <img src="assets/banners/aboutbannertwo.jpeg" alt="aboutbanner" class="video">
+
+                </div>
+            </div>
+        </section>
+
+        <div class="brekrump">
+            <div class="container">
+                Home / Blogs
+            </div>
+        </div>
+
+        <style>
+            .blogsection{
+                padding:5rem 0rem;
+            }
+            .blogcontainer{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+                width: 100%;
+            }
+
+            .blogcard{
+                display:flex;
+                flex-direction:column;
+                gap:1rem;
+            }
+             .blogcard .img img{
+                width:100%;
+             }
+         
+        </style>
+
+        <section class="blogsection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="blogcontainer">
+                            <h4 class="headingthree text-center">Blogs</h4>
+                            <p class="texttwo text-center">Check out our all blogs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                        <div class="col-lg-4">
+                         <div class="blogcard">
+                            <div class="img"><img src="assets/images/blogs/1.jpg" alt="blogimage"></div>
+                            <div class="blogpara">
+                            <h5 class="headingfour">Your Ultimate Guide To Bali Tour Packages | Money Saving Tips For Indian Travellers</h5>
+                            <p class="textthree">Planning a trip to Bali from India can be an exciting prospect</p>
+                            </div>
+                            <a href="./blogone.php" class="secondrybtn"><span>Read More</span></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blogcard">
+                            <div class="img"><img src="assets/images/blogs/2.png" alt="blogimage"></div>
+                            <div class="blogpara">
+                            <h5 class="headingfour">Your Ultimate Guide to Bali Tour Packages | Money Saving Tips for Indian Travellers</h5>
+                            <p class="textthree">Bali, the enchanting island paradise in Indonesia, </p>
+                            </div>
+                            <a href="./blogtwo.php" class="secondrybtn"><span>Read More</span></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blogcard">
+                            <div class="img"><img src="assets/images/blogs/3.jpg" alt=""></div>
+                            <div class="blogpara">
+                            <h5 class="headingfour">Travelling to Sri Lanka from South India | What to Expect and Essential Tips</h5>
+                            <p class="textthree">Sri Lanka is an ideal destination for South Indians.</p>
+                            </div>
+                            <a href="./blogthree.php" class="secondrybtn"><span>Read More</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<?php
+include('view/footer.php')
+?>
