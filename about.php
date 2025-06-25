@@ -18,37 +18,49 @@ include('view/header.php')
             </div>
         </div>
 
-        <section class="aboutsection">
-            <div class="container">
+        <section class="aboutsection" style="position:relative;" >
+            <div class="container-fluid" style="background:#00BAB3; margin-top:15vh;">
                 <div class="row">
                        <div class="col-lg-6 col-12">
-                        <img src="assets/banners/man.png" alt="successful-businessman" class="w-100">
+                        <img src="assets/banners/man.png" alt="successful-businessman" class="w-100" style="margin-top:-25vh;">
 
                     </div>
                     <div class="col-lg-6 col-12">
+                      
+                    </div>
+                 
+                 
+                </div>
+            </div>
+            <div class="container" style="    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    transform: translateX(10%);">
+                <div class="row">
+                    <div class="col-lg-6"></div>
+                    <div class="col-lg-6">
                         <div class="aboutcontent">
                             <h4 class="headinthree mb-4">About Us</h4>
-                            <p class="textthree mb-4">Hello fellow travel enthusiasts! With a decade-long personal journey
+                            <p class="textthree mb-4" style="color:black;">Hello fellow travel enthusiasts! With a decade-long personal journey
                                 through Japan, Dubai, Singapore, Malaysia, Thailand, and Indonesia, I've witnessed the
                                 transformative power of exploration. Travel, beyond being a luxury, is preventive
                                 medicine for the body, mind, and soul, releasing tension and fostering creativity. In
                                 our travel agency, we understand the demands of modern life, the value of quality time
                                 with loved ones, and the need for relaxation.</p>
-                            <p class="textthree mb-4">Our expertise lies in curating stress-free, rejuvenating vacations that
+                            <p class="textthree mb-4" style="color:black;">Our expertise lies in curating stress-free, rejuvenating vacations that
                                 combine adventure with leisure. From the vibrant culture of Japan to the exotic
                                 landscapes of Indonesia, we offer a tailored experience. Choose quality of life. Choose
                                 relaxation. Choose unforgettable memories. Start your incredible journey with us.</p>
                         
-                              <p class="textthree mb-4">Our expertise lies in curating stress-free, rejuvenating vacations that
+                              <p class="textthree mb-4" style="color:black;">Our expertise lies in curating stress-free, rejuvenating vacations that
                                 combine adventure with leisure. From the vibrant culture of Japan to the exotic
                                 landscapes of Indonesia, we offer a tailored experience. Choose quality of life. Choose
                                 relaxation. Choose unforgettable memories. Start your incredible journey with us.</p>
 
                         </div>
                     </div>
-                 
-                 
                 </div>
+                         
             </div>
         </section>
 

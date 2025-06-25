@@ -319,10 +319,32 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     `).join('');
   }
 
+  async function populateNavLinks() {
+  const domesticNavLink = document.getElementById('domesticnavlinks');
+  const internationalNavLink = document.getElementById('internationalnavlinks');
+  
+  if (domesticNavLink) {
+    const domesticPackages = await getDomesticPackages();
+    domesticNavLink.innerHTML = domesticPackages.map((pkg, index) => `
+      <li class="package" onclick="openPackageModal(${index}, 'domestic')" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        ${pkg.packageName}
+      </li>`).join('');
+  }
+
+  if (internationalNavLink) {
+    const internationalPackages = await getInternationalPackages();
+    internationalNavLink.innerHTML = internationalPackages.map((pkg, index) => `
+      <li class="package" onclick="openPackageModal(${index}, 'international')" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        ${pkg.packageName}
+      </li>`).join('');
+  }
+
+  // Repeat for other nav link sections if needed
+}
+
   // Display Domestic Packages
   async function displayDomesticPackages() {
     const container = document.getElementById('domesticpackage');
-    const domesticNavLink = document.getElementById('domesticnavlinks')
     const packages = await getDomesticPackages();
 
     container.innerHTML = packages.map((pkg, index) => `
@@ -333,15 +355,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       </div>
     `).join('');
 
-    domesticNavLink.innerHTML = packages.map((pkg, index) => `
-        <li class="package" onclick="openPackageModal(${index}, 'domestic')" data-bs-toggle="modal" data-bs-target="#exampleModal"> ${pkg.packageName}</li>
-    `).join('');
   }
 
   // Display International Packages
   async function displayInternationalPackages() {
     const container = document.getElementById('internationalpackage');
-    const packages = await getInternationalPackages();
     const internationalnavlinks = document.getElementById('internationalnavlinks')
 
     container.innerHTML = packages.map((pkg, index) => `
@@ -352,9 +370,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       </div>
     `).join('');
 
-     internationalnavlinks.innerHTML = packages.map((pkg, index) => `
-        <li class="package" onclick="openPackageModal(${index}, 'international')" data-bs-toggle="modal" data-bs-target="#exampleModal"> ${pkg.packageName}</li>
-    `).join('');
+ 
   }
 
   // Display Honeymoon Packages
@@ -539,7 +555,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     displaySpiritualPackages(); 
     displayWildLIfePackages();
     displayAdvanturePackages();
-    
+    populateNavLinks()
     document.getElementById('videomodalone').addEventListener('hidden.bs.modal', () => {
       document.getElementById('videomodalonecontainer').innerHTML = '';
     });
