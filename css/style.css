@@ -1006,22 +1006,23 @@ select.form-selected:focus {
 
 .homecontact .contactform .homeform .custominput {
     width: 100%;
-    /* padding: 2.5px; */
     padding: 10px;
     border: 1px solid #ccc;
-    /* border-radius: 4px; */
     font-size: 16px;
     appearance: none;
     background-color: #fff;
 }
 
-.homecontact .contactform .homeform .form-controll {
+.homecontact .contactform .homeform .form-controll{
     padding: 10px;
+    width: 100%;
 }
 
 .homecontact .contactform .homeform .custominput.select {
     color: #333;
 }
+
+
 
 .contactCards {
     display: flex;
@@ -1059,6 +1060,8 @@ select.form-selected:focus {
     text-decoration: none;
     color: #333;
 }
+
+
 
 /* testimonial starts from here  */
 
