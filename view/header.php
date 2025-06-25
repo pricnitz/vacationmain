@@ -124,7 +124,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <div class="megamenucontainer">
                             <div class="">
                                 <h4 class="headingfour">Domestic</h4>
-                                <div class="list">
+                                <div class="domesticlist">
                                     <ul id="domesticnavlinks" class="navlinks">
 
 
@@ -360,7 +360,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   // Display International Packages
   async function displayInternationalPackages() {
     const container = document.getElementById('internationalpackage');
-    const internationalnavlinks = document.getElementById('internationalnavlinks')
+     const packages = await getInternationalPackages();
 
     container.innerHTML = packages.map((pkg, index) => `
       <div class="col-lg-4 col-sm-6 col-12 mb-3">

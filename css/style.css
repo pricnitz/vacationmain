@@ -151,7 +151,7 @@ a {
     font-size: 1.2rem;
     border: none;
     position: relative;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .primary-btn.active {
@@ -582,7 +582,7 @@ main {
     border-radius: 20px;
     overflow: hidden;
     margin: auto 2.5%;
-
+    object-fit: cover;
 }
 
 .hero .video video {
@@ -1013,7 +1013,7 @@ select.form-selected:focus {
     background-color: #fff;
 }
 
-.homecontact .contactform .homeform .form-controll{
+.homecontact .contactform .homeform .form-controll {
     padding: 10px;
     width: 100%;
 }
@@ -1346,9 +1346,11 @@ select.form-selected:focus {
     border-radius: 30px;
     height: auto;
 }
-.aboutsection{
-    border-bottom:1px solid gray ;
+
+.aboutsection {
+    border-bottom: 1px solid gray;
 }
+
 .aboutsection .aboutcontent {
     display: flex;
     flex-direction: column;
@@ -1511,20 +1513,25 @@ select.form-selected:focus {
     .headingone {
         font-size: 2.5rem;
     }
+
     /* hero starts from here  */
     .hero {
         min-height: 90vh;
     }
+
     .pageshero {
         min-height: 20vh;
     }
+
     .hero .container .hero-content {
         margin-top: 10rem;
     }
+
     /* packages starts from here */
     .populorpackagescard {
         height: 220px;
     }
+
     /* home contact starts from here */
     .homecontact .contactform .homeform {
         width: 100%;
@@ -1564,21 +1571,21 @@ select.form-selected:focus {
         gap: 0.5rem;
     }
 
- 
+
 
     #mobilenavsidebar .offcanvas-body .nav-list li {
         font-size: 1.2rem;
         border-radius: 5px;
     }
 
-    #mobilenavsidebar .offcanvas-body .packagesnavmobilelinks li{
+    #mobilenavsidebar .offcanvas-body .packagesnavmobilelinks li {
         font-size: 0.9rem;
     }
 
 
 
     .accordionbtn::after {
-        content: "▲"; 
+        content: "▲";
         font-size: 0.8rem;
         float: right;
         margin-left: auto;
@@ -1587,39 +1594,36 @@ select.form-selected:focus {
     }
 
     .accordionbtn.collapsed::after {
-        content: "▼"; 
+        content: "▼";
     }
 
-    .accordionbtn span{
+    .accordionbtn span {
         border-bottom: 1px solid var(--primary-color);
         padding: 5px 0px;
     }
 
-    .accordionbtn.collapsed span{
+    .accordionbtn.collapsed span {
         border-bottom: none;
     }
 
     /* packages modal starts from here  */
 
 
-    .package-card{
+    .package-card {
         flex-direction: column;
         gap: 5rem;
     }
-    
-    .package-card-img{
+
+    .package-card-img {
         max-width: 100%;
     }
 
-    .package-card-img img{
-     width: 100%;
+    .package-card-img img {
+        width: 100%;
     }
 
-    .package-card-para{
+    .package-card-para {
         max-height: 100%;
     }
-     
+
 }
-
-
-
