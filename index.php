@@ -526,7 +526,7 @@ include('view/header.php')
 
         </section>
 
-        <section class="happyclients">
+        <!-- <section class="happyclients">
             <div class="container">
                 <h2 class="headingtwo">Our happy Clients</h2>
                 <div class="swiper happyclientsSwiper">
@@ -561,7 +561,7 @@ include('view/header.php')
                         <div class="swiper-button-prev"></div>
                     </div>
                 </div>
-        </section>
+        </section> -->
 
         <section class="testimonials">
             <div class="container">
