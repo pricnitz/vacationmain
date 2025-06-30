@@ -52,10 +52,6 @@ include('view/header.php')
                                 landscapes of Indonesia, we offer a tailored experience. Choose quality of life. Choose
                                 relaxation. Choose unforgettable memories. Start your incredible journey with us.</p>
                         
-                              <p class="textthree mb-4" style="color:black;">Our expertise lies in curating stress-free, rejuvenating vacations that
-                                combine adventure with leisure. From the vibrant culture of Japan to the exotic
-                                landscapes of Indonesia, we offer a tailored experience. Choose quality of life. Choose
-                                relaxation. Choose unforgettable memories. Start your incredible journey with us.</p>
 
                         </div>
                     </div>

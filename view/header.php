@@ -177,7 +177,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="menulist">
                 <ul class="nav-list">
                     <li><a href="index.php" class="active">Home</a></li>
-                    <li><a href="about.php">About</a></li>
+                    <li><a href="about.php">About Us</a></li>
                     <li><a href="index.php#services">Services</a></li>
                     <li class="megamenu"><a href="packages.php">Packages</a>
                         <div class="megamenucontainer">
