@@ -1,33 +1,35 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $whatsappNumber = "8109653732";
+    $whatsappNumber = "918109653732"; // Your WhatsApp number without +91
 
+    $message = ""; // Initialize message
+
+    // Tour Package Enquiry
     if (isset($_POST['tourtype'], $_POST['packagename'])) {
-        // First form: Tour Package Enquiry
         $ptourType = htmlspecialchars($_POST['tourtype']);
         $packageName = htmlspecialchars($_POST['packagename']);
 
-        $message = "Tour Package Enquiry:\n" .
-                   "Tour Type: $ptourType\n" .
-                   "Package Name: $packageName";
+        $message = "*Tour Package Enquiry*\n"
+                 . "Tour Type: $ptourType\n"
+                 . "Package Name: $packageName";
     }
 
+    // Basic Tour Enquiry
     elseif (isset($_POST['tour_type_name'], $_POST['month'], $_POST['duration'], $_POST['mobile'])) {
-        // Second form: Basic Tour Enquiry
         $tourTypename = htmlspecialchars($_POST['tour_type_name']);
         $month = htmlspecialchars($_POST['month']);
         $duration = htmlspecialchars($_POST['duration']);
         $mobile = htmlspecialchars($_POST['mobile']);
 
-        $message = "Tour Enquiry:\n" .
-                   "Tour Type: $tourTypename\n" .
-                   "Preferred Month: $month\n" .
-                   "Duration: $duration\n" .
-                   "Contact: $mobile";
+        $message = "*Basic Tour Enquiry*\n"
+                 . "Tour Type: $tourTypename\n"
+                 . "Preferred Month: $month\n"
+                 . "Duration: $duration\n"
+                 . "Contact: $mobile";
     }
 
+    // Detailed Tour Booking
     elseif (isset($_POST['name'], $_POST['city'], $_POST['phone'], $_POST['whatsapp'], $_POST['travel_date'], $_POST['people_count'], $_POST['tour_type'])) {
-        // Third form: Detailed Booking Enquiry
         $name = htmlspecialchars($_POST['name']);
         $city = htmlspecialchars($_POST['city']);
         $email = isset($_POST['email']) ? htmlspecialchars($_POST['email']) : '';
@@ -37,28 +39,85 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $people_count = htmlspecialchars($_POST['people_count']);
         $tour_type = htmlspecialchars($_POST['tour_type']);
 
-        $message = "New Tour Booking Enquiry:\n" .
-                   "Name: $name\n" .
-                   "City: $city\n" .
-                   "Email: $email\n" .
-                   "Phone: $phone\n" .
-                   "WhatsApp: $whatsapp\n" .
-                   "Travel Date: $travel_date\n" .
-                   "No. of People: $people_count\n" .
-                   "Tour Type: $tour_type";
+        $message = "*New Tour Booking Enquiry*\n"
+                 . "Name: $name\n"
+                 . "City: $city\n"
+                 . "Email: $email\n"
+                 . "Phone: $phone\n"
+                 . "WhatsApp: $whatsapp\n"
+                 . "Travel Date: $travel_date\n"
+                 . "No. of People: $people_count\n"
+                 . "Tour Type: $tour_type";
     }
 
-    // If any message was prepared, redirect to WhatsApp
-    if (isset($message)) {
+    // Job Application
+    elseif (isset($_POST['firstname'], $_POST['lastname'], $_POST['city'], $_POST['phone'], $_POST['whatsapp'], $_POST['position'])) {
+        $firstName = htmlspecialchars($_POST["firstname"]);
+        $lastName = htmlspecialchars($_POST["lastname"]);
+        $email = isset($_POST["email"]) ? htmlspecialchars($_POST["email"]) : '';
+        $phone = htmlspecialchars($_POST["phone"]);
+        $city = htmlspecialchars($_POST["city"]);
+        $whatsapp = htmlspecialchars($_POST["whatsapp"]);
+        $position = htmlspecialchars($_POST["position"]);
+
+        // Handle resume upload
+        $resumeInfo = "Not uploaded.";
+        if (isset($_FILES['resume']) && $_FILES['resume']['error'] === 0) {
+            $uploadDir = "uploads/";
+            if (!is_dir($uploadDir)) {
+                mkdir($uploadDir, 0755, true);
+            }
+            $fileName = time() . "_" . basename($_FILES["resume"]["name"]);
+            $targetFile = $uploadDir . $fileName;
+
+            if (move_uploaded_file($_FILES["resume"]["tmp_name"], $targetFile)) {
+                $resumeInfo = "Uploaded to: " . $targetFile;
+            }
+        }
+
+        $message = "*Job Application*\n"
+                 . "Name: $firstName $lastName\n"
+                 . "City: $city\n"
+                 . "Phone: $phone\n"
+                 . "WhatsApp: $whatsapp\n"
+                 . "Email: $email\n"
+                 . "Position: $position\n"
+                 . "Resume: $resumeInfo";
+    }
+
+
+    // bookibg details Application
+    elseif (isset($_POST['name'], $_POST['city'], $_POST['phone'], $_POST['whatsapp'], $_POST['travel_date'], $_POST['people_count'], $_POST['tour_type'])) {
+    $name = htmlspecialchars($_POST['name']);
+    $city = htmlspecialchars($_POST['city']);
+    $email = isset($_POST['email']) ? htmlspecialchars($_POST['email']) : '';
+    $phone = htmlspecialchars($_POST['phone']);
+    $whatsapp = htmlspecialchars($_POST['whatsapp']);
+    $travel_date = htmlspecialchars($_POST['travel_date']);
+    $people_count = htmlspecialchars($_POST['people_count']);
+    $tour_type = htmlspecialchars($_POST['tour_type']);
+
+    $message = "📝 *New Tour Booking Enquiry*\n"
+             . "👤 Name: $name\n"
+             . "🏙️ City: $city\n"
+             . "📧 Email: $email\n"
+             . "📞 Phone: $phone\n"
+             . "📲 WhatsApp: $whatsapp\n"
+             . "📅 Travel Date: $travel_date\n"
+             . "👥 No. of People: $people_count\n"
+             . "🗺️ Tour Type: $tour_type";
+}
+
+    // Final WhatsApp redirection
+    if (!empty($message)) {
         $encodedMessage = urlencode($message);
         header("Location: https://wa.me/$whatsappNumber?text=$encodedMessage");
         exit;
+    } else {
+        echo "Invalid form submission.";
     }
 }
 ?>
-
-
-
 
 
 
