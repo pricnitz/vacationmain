@@ -86,12 +86,13 @@ include('view/header.php')
                                             <select class="form-selected" name="duration">
                                                 <option value="" selected disabled>Select Duration</option>
                                                 <option>1 Week</option>
-                                                <option>3 Days / 4 Night</option>
-                                                <option>10 Days / 11 Night</option>
-                                                <option>4 Days / 5 Night</option>
-                                                <option>7 Days / 8 Night</option>
-                                                <option>5 Days / 6 Night</option>
-                                                <option>2 Days / 3 Night</option>
+                                                <option>  2 Nights 3 Days</option>
+                                                <option>  3 Nights 4 Days</option>
+                                                <option>  4 Nights 5 Days</option>
+                                                <option>  5 Nights 6 Days</option>      
+                                                <option>  8 Nights 9 Days</option>
+                                                <option>  9 Nights 10 Days</option>
+                                                <option>  10 Nights 11 Days</option>
                                             </select>
                                             <i class="ri-arrow-down-s-line"></i>
                                         </div>
