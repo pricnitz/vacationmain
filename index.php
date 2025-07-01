@@ -37,10 +37,12 @@ include('view/header.php')
                                             <select class="form-selected" name="tour_type_name">
                                                 <option value="" selected disabled>Select Tour Type</option>
                                                 <option value="Adventure Tours">Adventure Tours</option>
-                                                <option value="Corporate Tours">Honeymoon Tour</option>
-                                                <option value="Family Tours">Family Tours</option>
+                                                 <option value="Corporate Tours">Corporate Tours</option>
+                                                  <option value="Family Tours">Family Tours</option>
+                                                <option value="Honeymoon Tours">Honeymoon Tour</option>
+                                               
                                                 <option value="Group Tours">Group Tours</option>
-                                                <option value="Honeymoon Tours">Honeymoon Tours</option>
+                            
                                                 <option value="Spiritual Tours">Spiritual Tours</option>
                                                 <option value="Wildlife Tours">Wildlife Tours</option>
                                             </select>

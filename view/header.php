@@ -364,6 +364,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     return allPackages.filter(pkg => pkg.catagory === 'adventure_tours');
   }
 
+   async function getCorporatePackage() {
+    const allPackages = await getAllPackages();
+    return allPackages.filter(pkg => pkg.catagory === 'corporet_tours');
+  }
+
   // Display All Packages
   async function displayAllData() {
     const allpackageElement = document.getElementById('allpackage');
@@ -515,6 +520,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
      `).join('');
    }
 
+    async function displayCorporatePackage() {
+    const container = document.getElementById('corporatepackage');
+    const packages = await getCorporatePackage();
+
+     container.innerHTML = packages.map((pkg, index) => `
+       <div class="col-lg-4 col-sm-6 col-12 mb-3">
+         <div class="package" onclick="openPackageModal(${index}, 'corporet_tours')" data-bs-toggle="modal" data-bs-target="#exampleModal">
+           <img class="w-100" src="assets/images/domesticimg/${pkg.packageNameimg}" alt="${pkg.packageName}">
+         </div>
+       </div>
+     `).join('');
+   }
+
   // Modal for Full Package Details
   async function openPackageModal(index, type) {
     const container = document.getElementById('packageList');
@@ -535,8 +553,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } else if (type === 'wildlife_tours') {
       packages = await getwildlifePackages(); 
     } else if (type === 'adventurepackage') {
-      packages = await displayAdvanturePackages(); 
-    } else {
+      packages = await getAdvanturePackages();  
+    } else if (type === 'corporet_tours') {
+      packages = await getCorporatePackage(); 
+    }
+     else {
       packages = await getAllPackages();
     }
 
@@ -592,7 +613,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       packages = await getwildlifePackages(); 
     } else if (type === 'adventurepackage') {
       packages = await displayAdvanturePackages(); 
-    } else {
+    } else if (type === 'corporet_tours') {
+      packages = await displayCorporatePackage(); 
+    } 
+    else {
       packages = await getAllPackages();
     }
 
@@ -614,6 +638,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     displaySpiritualPackages(); 
     displayWildLIfePackages();
     displayAdvanturePackages();
+    displayCorporatePackage();
     populateNavLinks()
     document.getElementById('videomodalone').addEventListener('hidden.bs.modal', () => {
       document.getElementById('videomodalonecontainer').innerHTML = '';

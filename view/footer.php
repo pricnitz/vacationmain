@@ -48,8 +48,8 @@
                     </div>
                     <div class="footerheadercardcontent">
                         <h4 class="headingfour">Opening Hours</h4>
-                        <a class="texttwo" href="callto:">Mon - Fri</a>
-                        <a class="texttwo" href="callto:">09:00AM - 6:00PM</a>
+                        <a class="texttwo" href="callto:">Mon - Sat</a>
+                        <a class="texttwo" href="callto:">11:00AM - 7:00PM</a>
                     </div>
                 </div>
 
