@@ -248,11 +248,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                         <div class="accordionbtn collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseTwo" aria-expanded="false"
                                             aria-controls="collapseTwo">
-                                            <span></span>
+                                              <span>Domestic</span>
                                         </div>
                                         <div id="collapseTwo" class="accordion-collapse collapse "
                                             data-bs-parent="#accordionExample1">
-                                            <ul id="navmobilelinks" class="packagesnavmobilelinks">
+                                            <ul id="domesticnavmobilelinks" class="packagesnavmobilelinks">
 
                                             </ul>
                                         </div>
@@ -385,19 +385,30 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
   async function populateNavLinks() {
     const domesticNavLink = document.getElementById('domesticnavlinks');
+    const domesticNavLinkMobile = document.getElementById('domesticnavmobilelinks');
     const internationalNavLink = document.getElementById('internationalnavlinks');
+    const internationalnavmobile = document.getElementById('internationalnavmobilelinks');
   
-    if (domesticNavLink) {
+    if (domesticNavLink && domesticNavLinkMobile ) {
       const domesticPackages = await getDomesticPackages();
       domesticNavLink.innerHTML = domesticPackages.map((pkg, index) => `
         <li class="package" onclick="openPackageModal(${index}, 'domestic')" data-bs-toggle="modal" data-bs-target="#exampleModal">
           ${pkg.packageName}
         </li>`).join('');
+      domesticNavLinkMobile.innerHTML = domesticPackages.map((pkg, index) => `
+        <li class="package" onclick="openPackageModal(${index}, 'domestic')" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          ${pkg.packageName}
+        </li>`).join('');
     }
 
-    if (internationalNavLink) {
+    if (internationalNavLink &&  internationalnavmobile) {
       const internationalPackages = await getInternationalPackages();
       internationalNavLink.innerHTML = internationalPackages.map((pkg, index) => `
+        <li class="package" onclick="openPackageModal(${index}, 'international')" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          ${pkg.packageName}
+        </li>`).join('');
+        
+      internationalnavmobile.innerHTML = internationalPackages.map((pkg, index) => `
         <li class="package" onclick="openPackageModal(${index}, 'international')" data-bs-toggle="modal" data-bs-target="#exampleModal">
           ${pkg.packageName}
         </li>`).join('');
