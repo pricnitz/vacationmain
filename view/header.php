@@ -384,27 +384,26 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   }
 
   async function populateNavLinks() {
-  const domesticNavLink = document.getElementById('domesticnavlinks');
-  const internationalNavLink = document.getElementById('internationalnavlinks');
+    const domesticNavLink = document.getElementById('domesticnavlinks');
+    const internationalNavLink = document.getElementById('internationalnavlinks');
   
-  if (domesticNavLink) {
-    const domesticPackages = await getDomesticPackages();
-    domesticNavLink.innerHTML = domesticPackages.map((pkg, index) => `
-      <li class="package" onclick="openPackageModal(${index}, 'domestic')" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        ${pkg.packageName}
-      </li>`).join('');
-  }
+    if (domesticNavLink) {
+      const domesticPackages = await getDomesticPackages();
+      domesticNavLink.innerHTML = domesticPackages.map((pkg, index) => `
+        <li class="package" onclick="openPackageModal(${index}, 'domestic')" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          ${pkg.packageName}
+        </li>`).join('');
+    }
 
-  if (internationalNavLink) {
-    const internationalPackages = await getInternationalPackages();
-    internationalNavLink.innerHTML = internationalPackages.map((pkg, index) => `
-      <li class="package" onclick="openPackageModal(${index}, 'international')" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        ${pkg.packageName}
-      </li>`).join('');
-  }
-
+    if (internationalNavLink) {
+      const internationalPackages = await getInternationalPackages();
+      internationalNavLink.innerHTML = internationalPackages.map((pkg, index) => `
+        <li class="package" onclick="openPackageModal(${index}, 'international')" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          ${pkg.packageName}
+        </li>`).join('');
+    }
   // Repeat for other nav link sections if needed
-}
+  }
 
   // Display Domestic Packages
   async function displayDomesticPackages() {
@@ -627,10 +626,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } else if (type === 'wildlife_tours') {
       packages = await getwildlifePackages(); 
     } else if (type === 'adventurepackage') {
-      packages = await displayAdvanturePackages(); 
+      packages = await getAdvanturePackages(); 
     } else if (type === 'corporet_tours') {
-      packages = await displayCorporatePackage(); 
-    } 
+      packages = await getCorporatePackage(); 
+    }
     else {
       packages = await getAllPackages();
     }
