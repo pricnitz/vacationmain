@@ -54,6 +54,9 @@ include('view/header.php')
                             <button class="primary-btn mb-3" id="Corporate-tab" data-bs-toggle="tab"
                                 data-bs-target="#corporate" type="button" role="tab" aria-controls="Corporate"
                                 aria-selected="false"><span>Corporate</span></button>
+                            <button class="primary-btn mb-3" id="InternationalCruise-tab" data-bs-toggle="tab"
+                                data-bs-target="#InternationalCruise" type="button" role="tab" aria-controls="InternationalCruise"
+                                aria-selected="false"><span>International Cruise</span></button>
                         </nav>
 
                     </div>
@@ -108,6 +111,11 @@ include('view/header.php')
                             <div class="tab-pane fade" id="corporate" role="tabpanel"
                                 aria-labelledby="corporate-tab" tabindex="0">
                                 <div class="row" id="corporatepackage">
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="InternationalCruise" role="tabpanel"
+                                aria-labelledby="InternationalCruise" tabindex="0">
+                                <div class="row" id="InternationalCruisePackages">
                                 </div>
                             </div>
                         </div>

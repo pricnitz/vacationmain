@@ -1692,5 +1692,102 @@
             "Medical insurance for the duration of the tour is included in the tour price (additional charges for passengers above 60 or extended stays)",
             "Meals, transfers, entrances, sightseeing and surface transport as mentioned in the itinerary"
         ]
+    },
+    {
+        "catagory": "internationsalcruise",
+        "videoUrl": "",
+        "packageNameimg": "",
+        "packageName": "Singapore With 3 Nights Disney Adventure Cruise",
+        "pricePerPerson": "Starting From INR 67,200 Per Adult",
+        "destinationCovered": "1N Singapore – 3N Disney Adventure Cruise",
+        "duration": "4 Nights 5 Days",
+        "inclusions": [
+            "01 Night Accommodation at Ibis Singapore Imperial/Aqueen Prestige Lavender or similar in Singapore",
+            "03 Nights on Disney Adventure Cruise with Inside Stateroom or Similar",
+            "Daily Breakfast except on Day 01",
+            "All Meals included on board the ship",
+            "Port Taxes",
+            "International Shows onboard the ship",
+            "All Kids Activities",
+            "Meet and greet with Disney Characters",
+            "Experience fun-filled adventure at Marvel Landing",
+            "Enjoy live shows like Moana – Call of the Sea",
+            "Return Airport Transfer (Airport - Hotel - Airport) – (SIC Basis)",
+            "Singapore Hotel – Singapore Cruise Terminal – (SIC Basis)",
+            "Travel Insurance (Valid for the age group till 60 Yrs.)"
+        ]
+    },
+    {
+        "catagory": "internationsalcruise",
+        "videoUrl": "",
+        "packageNameimg": "",
+        "packageName": "Asian Dhamaka With Cruise (Group Tour)",
+        "pricePerPerson": "Starting From INR 155,100 Per Adult",
+        "destinationCovered": "3N Kuala Lumpur – 3N Singapore – 3N Genting Dream Cruise",
+        "duration": "9 Nights 10 Days",
+        "inclusions": [
+            "03 Nights accommodation at Hotel Metro / Hotel Sentral Pudu / The Pearl Kuala Lumpur or similar in Kuala Lumpur",
+            "03 Nights accommodation at M Social / IBIS Bencoolen or similar in Singapore",
+            "03 Nights onboard Genting Dream Cruise",
+            "06 Continental breakfast",
+            "06 Jain / vegetarian / non vegetarian dinners at Indian Restaurants",
+            "Full board meal plan on Cruise",
+            "Note: Packed lunches, if applicable, will be Jain/vegetarian",
+            "Return economy class airfare as per the itinerary",
+            "Singapore Visa & Airport taxes (Any further increase to be borne by the guest)",
+            "Services of a professional & multilingual Tour Manager/ local representative (subject to minimum 25 customers)",
+            "Medical insurance for duration of the tour (charges applicable for passengers above 60 or extended stays)",
+            "Meals, transfers, entrances, sightseeing, and surface transport as per itinerary",
+            "Genting Highlands with 2-way cable car",
+            "Visit Genting Skyworld Theme Park",
+            "Visit Gardens By the Bay: Flower Dome + Cloud Forest",
+            "Visit Mandai Bird Park",
+            "Visit MBS Sky Park (Non Peak Timings)",
+            "Visit Sentosa Island by one-way Cable Car",
+            "Madame Tussauds with Bollywood Avenue, 4D Marvel Show & more",
+            "Wings of Time Show",
+            "Full onboard entertainment on Genting Dream Cruise"
+        ]
+    },
+    {
+        "catagory": "internationsalcruise",
+        "videoUrl": "",
+        "packageNameimg": "",
+        "packageName": "Cordelia Cruises – Chennai – Phuket – Langkawi – Kuala Lumpur – Singapore",
+        "pricePerPerson": "Starting From INR 60,600 Per Adult",
+        "destinationCovered": "Chennai – Phuket – Langkawi – Kuala Lumpur – Singapore",
+        "duration": "10 Nights 11 Days",
+        "inclusions": [
+            "10 Nights Cruise in inside cabin on Cordelia Cruise",
+            "All meals onboard the Cruise",
+            "10 Breakfasts",
+            "09 Lunches as per itinerary",
+            "09 Dinners as per itinerary",
+            "Day & Late-Night Snacks available"
+        ]
+    },
+    {
+        "catagory": "internationsalcruise",
+        "videoUrl": "",
+        "packageNameimg": "",
+        "packageName": "Disney Adventure Cruise – Singapore Sailings",
+        "pricePerPerson": "Starting From INR 61,600 Per Adult",
+        "destinationCovered": "Singapore Cruise",
+        "duration": "4 Nights 5 Days",
+        "inclusions": [
+            "Accommodation onboard",
+            "All Meals",
+            "Unlimited Coffee, Tea & Soda",
+            "Broadway-Quality Shows",
+            "Character Experiences",
+            "Movie Screenings",
+            "Pools, Waterslides, Splash Zones & Wading Pools",
+            "Disney's Oceaneer Club and Lab (3–10 yrs)",
+            "Edge (11–14 yrs)",
+            "Vibe (14–17 yrs)",
+            "Nightclubs, Lounges & Live Music",
+            "Adults-Only Pool & Whirlpool Spa",
+            "Fitness Center"
+        ]
     }
 ]

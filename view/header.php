@@ -368,6 +368,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     const allPackages = await getAllPackages();
     return allPackages.filter(pkg => pkg.catagory === 'corporet_tours');
   }
+   async function getInternationsalCruisePackage() {
+    const allPackages = await getAllPackages();
+    return allPackages.filter(pkg => pkg.catagory === 'internationsalcruise');
+  }
 
   // Display All Packages
   async function displayAllData() {
@@ -530,13 +534,26 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
      `).join('');
    }
 
-    async function displayCorporatePackage() {
+  async function displayCorporatePackage() {
     const container = document.getElementById('corporatepackage');
     const packages = await getCorporatePackage();
 
      container.innerHTML = packages.map((pkg, index) => `
        <div class="col-lg-4 col-sm-6 col-12 mb-3">
          <div class="package" onclick="openPackageModal(${index}, 'corporet_tours')" data-bs-toggle="modal" data-bs-target="#exampleModal">
+           <img class="w-100" src="assets/images/domesticimg/${pkg.packageNameimg}" alt="${pkg.packageName}">
+         </div>
+       </div>
+     `).join('');
+   }
+
+  async function displayInternationsalCruisePackage() {
+    const container = document.getElementById('InternationalCruisePackages');
+    const packages = await getInternationsalCruisePackage();
+
+     container.innerHTML = packages.map((pkg, index) => `
+       <div class="col-lg-4 col-sm-6 col-12 mb-3">
+         <div class="package" onclick="openPackageModal(${index}, 'internationsalcruise')" data-bs-toggle="modal" data-bs-target="#exampleModal">
            <img class="w-100" src="assets/images/domesticimg/${pkg.packageNameimg}" alt="${pkg.packageName}">
          </div>
        </div>
@@ -566,6 +583,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       packages = await getAdvanturePackages();  
     } else if (type === 'corporet_tours') {
       packages = await getCorporatePackage(); 
+    } else if (type === 'internationsalcruise') {
+      packages = await getInternationsalCruisePackage(); 
     }
      else {
       packages = await getAllPackages();
@@ -640,6 +659,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       packages = await getAdvanturePackages(); 
     } else if (type === 'corporet_tours') {
       packages = await getCorporatePackage(); 
+    } else if (type === 'internationsalcruise') {
+      packages = await getInternationsalCruisePackage(); 
     }
     else {
       packages = await getAllPackages();
@@ -664,6 +685,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     displayWildLIfePackages();
     displayAdvanturePackages();
     displayCorporatePackage();
+    displayInternationsalCruisePackage();
     populateNavLinks()
     document.getElementById('videomodalone').addEventListener('hidden.bs.modal', () => {
       document.getElementById('videomodalonecontainer').innerHTML = '';
