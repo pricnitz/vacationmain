@@ -507,7 +507,7 @@
             "Breakfast",
             "Sightseeing",
             "Transfers",
-             "Travel Insurance (Valid for the age group till 60 Yrs)"
+            "Travel Insurance (Valid for the age group till 60 Yrs)"
         ],
         "note": "Prices are per person on twin sharing basis | Peak season surcharges may apply | GST & TCS will be applicable"
     },
@@ -524,7 +524,7 @@
             "Breakfast",
             "Sightseeing",
             "Transfers",
-             "Travel Insurance (Valid for the age group till 60 Yrs)"
+            "Travel Insurance (Valid for the age group till 60 Yrs)"
         ],
         "note": ""
     },
@@ -541,7 +541,7 @@
             "Breakfast",
             "Sightseeing",
             "Transfers",
-             "Travel Insurance (Valid for the age group till 60 Yrs)"
+            "Travel Insurance (Valid for the age group till 60 Yrs)"
         ],
         "note": "Prices are per person on twin sharing basis | Peak season surcharges may apply | GST & TCS will be applicable"
     },
@@ -562,7 +562,7 @@
             "Ground transportation by air conditioned vehicle",
             "Services of English speaking tour guide",
             "Porterage at Hotels",
-             "Travel Insurance (Valid for the age group till 60 Yrs)"
+            "Travel Insurance (Valid for the age group till 60 Yrs)"
         ],
         "note": "Per adult on Twin/Triple sharing basis (11 years & Above)"
     },
@@ -574,7 +574,13 @@
         "pricePerPerson": "Starting From USD 417  Per Person",
         "duration": "4 Nights 5 Days",
         "destinationCovered": "02N Cinnamon Citadel, Kandy – 01N Cinnamon Bey, Bentota – 01N Cinnamon Lakeside, Colombo",
-        "includes": [],
+        "daywiseitenary": [
+            "Day 1 : Airport – Kandy",
+            "Day 2 : Kandy – Nuwara Eliya – Kandy",
+            "Day 3 : Kandy – Bentota",
+            "Day 4 : Bentota – Colombo",
+            "Day 5 : Colombo – Airport"
+        ],
         "note": "Based on 2 pax"
     },
     {
@@ -591,7 +597,7 @@
             "8 lunches and 9 dinners",
             "Sightseeing",
             "Return airport transfers on private basis",
-             "Travel Insurance (Valid for the age group till 60 Yrs)"
+            "Travel Insurance (Valid for the age group till 60 Yrs)"
         ],
         "note": "Prices are per person on twin sharing basis | Peak season surcharges may apply | GST & TCS will be applicable"
     },
@@ -612,7 +618,7 @@
             "Dhow Creek Cruise on SIC",
             "Abu Dhabi City Tour on private basis",
             "Return airport transfers on private basis",
-             "Travel Insurance (Valid for the age group till 60 Yrs)"
+            "Travel Insurance (Valid for the age group till 60 Yrs)"
         ],
         "note": "Prices are per person on twin sharing basis | Peak season surcharges may apply | GST & TCS will be applicable"
     },
@@ -631,7 +637,7 @@
             "Full Day Genting Tour with Return Cable Car Tickets and Genting Skyworlds Theme Park",
             "Langkawi Island Hopping Tour",
             "Return airport transfers on private basis",
-             "Travel Insurance (Valid for the age group till 60 Yrs)"
+            "Travel Insurance (Valid for the age group till 60 Yrs)"
         ],
         "note": "Prices are per person on twin sharing basis | Peak season surcharges may apply | GST & TCS will be applicable"
     },
@@ -650,7 +656,7 @@
             "Half Day City Tour of Kuala Lumpur on SIC",
             "Enroute Batu Caves + Two Way Cable Car",
             "Mangrove Tour on SIC Basis",
-             "Travel Insurance (Valid for the age group till 60 Yrs)"
+            "Travel Insurance (Valid for the age group till 60 Yrs)"
         ],
         "note": "Prices are per person on twin sharing basis | Peak season surcharges may apply | GST & TCS will be applicable"
     },
@@ -667,7 +673,7 @@
             "All Meals & Sightseeing as per the itinerary",
             "Arrival & Departure transfers as per the Group",
             "Driver Tips & Services of a professional & caring Tour Manager",
-             "Travel Insurance (Valid for the age group till 60 Yrs)"
+            "Travel Insurance (Valid for the age group till 60 Yrs)"
         ],
         "note": "Prices are per person on Twin/Double/Triple sharing basis | Peak season surcharges may apply | GST & TCS will be applicable | Excludes Airfare, Visa, Insurance and personal expenses"
     },
@@ -684,7 +690,7 @@
             "All Meals & Sightseeing as per the itinerary",
             "Arrival & Departure transfers as per the Group",
             "Driver Tips & Services of a professional & caring Tour Manager",
-             "Travel Insurance (Valid for the age group till 60 Yrs)"
+            "Travel Insurance (Valid for the age group till 60 Yrs)"
         ],
         "note": "Prices are per person on Twin/Double/Triple sharing basis | Peak season surcharges may apply | GST & TCS will be applicable | Excludes Airfare, Visa, Insurance and personal expenses"
     },
@@ -704,7 +710,7 @@
             "Meet and greet services",
             "Bottled mineral water during safaris",
             "Services of an English-speaking driver/guide",
-             "Travel Insurance (Valid for the age group till 60 Yrs)"
+            "Travel Insurance (Valid for the age group till 60 Yrs)"
         ],
         "note": "Prices are per person on twin sharing basis | Peak season surcharges may apply | GST & TCS will be applicable | Excludes Airfare, Visa, Insurance and personal expenses"
     },
@@ -725,7 +731,7 @@
             "Bedugul Tour with Wanagiri View Point, Handara Gate, Beratan Temple and Jatiluwih Rice Terraces on private basis",
             "Kintamani Tour with Mount Batur View, Tegalalang Rice Terraces, Bali Swing with Lunch and Ubud Art Market on private basis",
             "Return airport transfers on private basis",
-             "Travel Insurance (Valid for the age group till 60 Yrs)"
+            "Travel Insurance (Valid for the age group till 60 Yrs)"
         ],
         "note": "Prices are per person on twin sharing basis | Peak season surcharges may apply | GST & TCS will be applicable |"
     },
@@ -746,7 +752,7 @@
             "Phi Phi Island Tour with Lunch by Speed Boat (Shared, excluding National Park Fee) on SIC",
             "Phuket City Tour including Chalong Temple, Karon View Point, Cashew Nut Factory",
             "Return airport transfers on private basis",
-             "Travel Insurance (Valid for the age group till 60 Yrs)"
+            "Travel Insurance (Valid for the age group till 60 Yrs)"
         ],
         "note": "Prices are per person on twin sharing basis | Peak season surcharges may apply | GST & TCS will be applicable |"
     },
@@ -763,7 +769,7 @@
             "Daily Breakfast, Lunch & Dinner",
             "Speed Boat on SIC",
             "Return airport transfers on private basis",
-             "Travel Insurance (Valid for the age group till 60 Yrs)"
+            "Travel Insurance (Valid for the age group till 60 Yrs)"
         ],
         "note": "Prices are per person on twin sharing basis | Peak season surcharges may apply | GST & TCS will be applicable |"
     },
@@ -782,7 +788,7 @@
             "Full Day South Tour",
             "Full Day Ile Aux Cerf Tour with Sharing Speedboat Transfer",
             "Return airport transfers on private basis",
-             "Travel Insurance (Valid for the age group till 60 Yrs)"
+            "Travel Insurance (Valid for the age group till 60 Yrs)"
         ],
         "note": "Prices are per person on twin sharing basis | Peak season surcharges may apply | GST & TCS will be applicable |"
     },
@@ -808,7 +814,7 @@
     {
         "catagory": "honeymoon_tours",
         "videoUrl": "https://www.youtube.com/embed/Is8yrPbPTcw?si=ryFme04HTSfVyTwz",
-        "packageNameimg": "2.png",
+        "packageNameimg": "vacationideas.CAMBODIA.png",
         "packageName": "Cambodia Honeymoon Package",
         "pricePerPerson": " Starting From 249 USD per person",
         "duration": "4 Nights 5 Days",
@@ -1586,106 +1592,105 @@
         ],
         "notes": "This tour is based on a minimum group strength of 10 Pax. Valid only for Indian Nationals holding Indian Passport or Voter ID. OCI/PIO cards are not acceptable in Nepal. Valid Indian Driving License is required for this tour. Includes long riding hours and off-roading; prior riding experience necessary. Rates and services are subject to change as per Nepal Govt. regulations."
     },
-    
     {
-    "catagory": "corporet_tours",
-    "videoUrl": "",
-    "packageNameimg": " ",
-    "packageName": "Magnificent Pachmarhi",
-    "pricePerPerson": "Starting From INR 5,900 Per Person (Min 15 Pax)",
-    "destinationCovered": "Pachmarhi",
-    "duration": "2 Nights 3 Days",
-    "inclusions": [
-      "Accommodation in well appointed rooms with air conditioning at Hotel",
-      "Daily Buffet/fixed Breakfast at Hotel (except day of arrival)",
-      "AC Vehicle Sedan/Innova as per no of pax",
-      "Exclusive Private car for all sightseeing and transfers",
-      "Parking Charges, Toll & Driver Allowances"
-    ]
-  },
-  {
-    "catagory": "corporet_tours",
-    "videoUrl": "",
-    "packageNameimg": " ",
-    "packageName": "Jabalpur Kanha Weekend Tour",
-    "pricePerPerson": "Starting From INR 9,500 Per Person",
-    "destinationCovered": "1N Jabalpur – 1N Kanha",
-    "duration": "2 Nights 3 Days",
-    "inclusions": [
-      "Accommodation in well-appointed room as per the selected hotel category",
-      "Sightseeing as per itinerary",
-      "Exclusive Private vehicle for all sightseeing and transfers",
-      "Meal Plan as per the selected plan",
-      "Parking Charges, Toll & Driver Allowances"
-    ]
-  },
-  {
-    "catagory": "corporet_tours",
-    "videoUrl": "",
-    "packageNameimg": " ",
-    "packageName": "Hampi Heritage Tour",
-    "pricePerPerson": "Starting From INR 15,800 Per Person",
-    "destinationCovered": "1N Bengaluru – 2N Hampi",
-    "duration": "3 Nights 4 Days",
-    "inclusions": [
-      "Accommodation in a well-appointed room as per the selected hotel category",
-      "Meal Plan as per the selected plan",
-      "Sightseeing as per itinerary",
-      "Return airport transfer",
-      "Exclusive Private vehicle for all sightseeing and transfer"
-    ]
-  },
-  {
-    "catagory": "corporet_tours",
-    "videoUrl": "",
-    "packageNameimg": " ",
-    "packageName": "Singapore Getaway",
-    "pricePerPerson": "Starting From INR 94,600 Per Adult",
-    "destinationCovered": "Singapore",
-    "duration": "4 Nights 5 Days",
-    "inclusions": [
-      "04 Nights accommodation at M Social/ Ibis Bencoolen or similar in Singapore",
-      "04 Continental breakfast",
-      "04 Dinners at Indian restaurants",
-      "Note: Packed lunches, if applicable, will be Jain/vegetarian",
-      "Guided City Tour of Singapore",
-      "Visit Gardens By the Bay: Flower Dome + Cloud Forest",
-      "Visit Mandai Bird Park",
-      "Visit MBS Sky Park (Non Peak Timings)",
-      "Visit Sentosa Island by One way Cable car ride",
-      "Madame Tussauds with Bollywood Avenue, Spirit of Singapore, Images of Singapore, 4D Marvel Show",
-      "Wings of Time Show",
-      "Return economy class airfare as per the itinerary",
-      "Accommodations at the hotels specified above or similar",
-      "Singapore Visa & Airport taxes (Any further increase in the same has to be borne by the guest)",
-      "Services of a professional & multilingual Tour Manager/ local representative (subjected to minimum 25 customers)",
-      "Cost of the ticket taxes for the above itinerary as of 1st Dec 2023",
-      "Medical insurance for the duration of the tour is included in the tour price (additional charges for passengers above 60 or extended stays)",
-      "Meals, transfers, entrances, sightseeing and surface transport as mentioned in the itinerary"
-    ]
-  },
-  {
-    "catagory": "corporet_tours",
-    "videoUrl": "",
-    "packageNameimg": " ",
-    "packageName": "Asian Dhamaka With Bintan",
-    "pricePerPerson": "Starting From INR 123,500 Per Adult",
-    "destinationCovered": "3N Kuala Lumpur – 3N Singapore – 2N Bintan Island",
-    "duration": "8 Nights 9 Days",
-    "inclusions": [
-      "03 Nights accommodation at Hotel Metro / Hotel Sentral Pudu / The Pearl Kuala Lumpur or similar in Kuala Lumpur",
-      "03 Nights accommodation at M Social / IBIS Bencoolen or similar in Singapore",
-      "02 Nights accommodation at Hotel Grand Lagoi Bintan or similar in Bintan",
-      "08 Continental breakfast (Except Day 1)",
-      "08 Dinners at Indian restaurants",
-      "Note: Packed lunches, if applicable, will be Jain/vegetarian",
-      "Return economy class airfare as per the itinerary",
-      "Accommodations at the hotels specified above or similar",
-      "Singapore Visa & Airport taxes (Any further increase in the same has to be borne by the guest)",
-      "Services of a professional & multilingual Tour Manager/ local representative (subject to minimum 25 customers)",
-      "Cost of the ticket taxes for the above itinerary as of 1st Dec 2024",
-      "Medical insurance for the duration of the tour is included in the tour price (additional charges for passengers above 60 or extended stays)",
-      "Meals, transfers, entrances, sightseeing and surface transport as mentioned in the itinerary"
-    ]
-  }
+        "catagory": "corporet_tours",
+        "videoUrl": "",
+        "packageNameimg": " ",
+        "packageName": "Magnificent Pachmarhi",
+        "pricePerPerson": "Starting From INR 5,900 Per Person (Min 15 Pax)",
+        "destinationCovered": "Pachmarhi",
+        "duration": "2 Nights 3 Days",
+        "inclusions": [
+            "Accommodation in well appointed rooms with air conditioning at Hotel",
+            "Daily Buffet/fixed Breakfast at Hotel (except day of arrival)",
+            "AC Vehicle Sedan/Innova as per no of pax",
+            "Exclusive Private car for all sightseeing and transfers",
+            "Parking Charges, Toll & Driver Allowances"
+        ]
+    },
+    {
+        "catagory": "corporet_tours",
+        "videoUrl": "",
+        "packageNameimg": " ",
+        "packageName": "Jabalpur Kanha Weekend Tour",
+        "pricePerPerson": "Starting From INR 9,500 Per Person",
+        "destinationCovered": "1N Jabalpur – 1N Kanha",
+        "duration": "2 Nights 3 Days",
+        "inclusions": [
+            "Accommodation in well-appointed room as per the selected hotel category",
+            "Sightseeing as per itinerary",
+            "Exclusive Private vehicle for all sightseeing and transfers",
+            "Meal Plan as per the selected plan",
+            "Parking Charges, Toll & Driver Allowances"
+        ]
+    },
+    {
+        "catagory": "corporet_tours",
+        "videoUrl": "",
+        "packageNameimg": " ",
+        "packageName": "Hampi Heritage Tour",
+        "pricePerPerson": "Starting From INR 15,800 Per Person",
+        "destinationCovered": "1N Bengaluru – 2N Hampi",
+        "duration": "3 Nights 4 Days",
+        "inclusions": [
+            "Accommodation in a well-appointed room as per the selected hotel category",
+            "Meal Plan as per the selected plan",
+            "Sightseeing as per itinerary",
+            "Return airport transfer",
+            "Exclusive Private vehicle for all sightseeing and transfer"
+        ]
+    },
+    {
+        "catagory": "corporet_tours",
+        "videoUrl": "",
+        "packageNameimg": " ",
+        "packageName": "Singapore Getaway",
+        "pricePerPerson": "Starting From INR 94,600 Per Adult",
+        "destinationCovered": "Singapore",
+        "duration": "4 Nights 5 Days",
+        "inclusions": [
+            "04 Nights accommodation at M Social/ Ibis Bencoolen or similar in Singapore",
+            "04 Continental breakfast",
+            "04 Dinners at Indian restaurants",
+            "Note: Packed lunches, if applicable, will be Jain/vegetarian",
+            "Guided City Tour of Singapore",
+            "Visit Gardens By the Bay: Flower Dome + Cloud Forest",
+            "Visit Mandai Bird Park",
+            "Visit MBS Sky Park (Non Peak Timings)",
+            "Visit Sentosa Island by One way Cable car ride",
+            "Madame Tussauds with Bollywood Avenue, Spirit of Singapore, Images of Singapore, 4D Marvel Show",
+            "Wings of Time Show",
+            "Return economy class airfare as per the itinerary",
+            "Accommodations at the hotels specified above or similar",
+            "Singapore Visa & Airport taxes (Any further increase in the same has to be borne by the guest)",
+            "Services of a professional & multilingual Tour Manager/ local representative (subjected to minimum 25 customers)",
+            "Cost of the ticket taxes for the above itinerary as of 1st Dec 2023",
+            "Medical insurance for the duration of the tour is included in the tour price (additional charges for passengers above 60 or extended stays)",
+            "Meals, transfers, entrances, sightseeing and surface transport as mentioned in the itinerary"
+        ]
+    },
+    {
+        "catagory": "corporet_tours",
+        "videoUrl": "",
+        "packageNameimg": " ",
+        "packageName": "Asian Dhamaka With Bintan",
+        "pricePerPerson": "Starting From INR 123,500 Per Adult",
+        "destinationCovered": "3N Kuala Lumpur – 3N Singapore – 2N Bintan Island",
+        "duration": "8 Nights 9 Days",
+        "inclusions": [
+            "03 Nights accommodation at Hotel Metro / Hotel Sentral Pudu / The Pearl Kuala Lumpur or similar in Kuala Lumpur",
+            "03 Nights accommodation at M Social / IBIS Bencoolen or similar in Singapore",
+            "02 Nights accommodation at Hotel Grand Lagoi Bintan or similar in Bintan",
+            "08 Continental breakfast (Except Day 1)",
+            "08 Dinners at Indian restaurants",
+            "Note: Packed lunches, if applicable, will be Jain/vegetarian",
+            "Return economy class airfare as per the itinerary",
+            "Accommodations at the hotels specified above or similar",
+            "Singapore Visa & Airport taxes (Any further increase in the same has to be borne by the guest)",
+            "Services of a professional & multilingual Tour Manager/ local representative (subject to minimum 25 customers)",
+            "Cost of the ticket taxes for the above itinerary as of 1st Dec 2024",
+            "Medical insurance for the duration of the tour is included in the tour price (additional charges for passengers above 60 or extended stays)",
+            "Meals, transfers, entrances, sightseeing and surface transport as mentioned in the itinerary"
+        ]
+    }
 ]

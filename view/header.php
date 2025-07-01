@@ -575,10 +575,25 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <p class="textthree"><span class="info-label">Duration:</span> ${pkg.duration}</p>
             <p class="textthree"><span class="info-label">Destination:</span> ${pkg.destinationCovered || ''}</p>
             <div>
-              <p class="textthree"><span class="info-label">Includes:</span></p>
-              <ul class="textthree">
-                ${(pkg.includes || pkg.inclusions || []).map(item => `<li><i class="ri-checkbox-circle-line"></i> ${item}</li>`).join('')}
-              </ul>
+            ${
+              (pkg.inclusions || pkg.includes)
+                ? (
+                    `<p class="textthree"><span class="info-label">Includes:</span></p>
+                     <ul class="textthree">
+                       ${(pkg.inclusions || pkg.includes || []).map(item => `
+                         <li><i class="ri-checkbox-circle-line"></i> ${item}</li>
+                       `).join('')}
+                     </ul>`
+                  )
+                : (
+                    `<p class="textthree"><span class="info-label">Day wise itinerary:</span></p>
+                     <ul class="textthree">
+                       ${(pkg.daywiseitenary || []).map(item => `
+                         <li><i class="ri-checkbox-circle-line"></i> ${item}</li>
+                       `).join('')}
+                     </ul>`
+                  )
+            }
             </div>
             ${(pkg.note || pkg.notes) ? `<p class="textthree"><small class="info-label">Note:</small> <small>${pkg.note || pkg.notes}</small></p>` : ''}
           </div>
