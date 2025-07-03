@@ -127,7 +127,7 @@ include('view/header.php')
             <h2 class="headingtwo">Popular Packages</h2>
             <div class="row">
                 <div class="col-lg-8 col-12 mb-4">
-                    <a href="packages.php#all" class="populorpackagescard">
+                    <a href="packages.php" class="populorpackagescard">
                         <span class="populorpackagescardbanner"></span>
 
                         <img src="assets/images/populorpackage/tours/India-Tour-Packages-770x375.webp"
@@ -139,13 +139,13 @@ include('view/header.php')
                     </a>
                 </div>
                 <div class="col-lg-4 col-6 mb-4">
-                    <a href="packages.php#international" class="populorpackagescard">
+                    <a href="packages.php" class="populorpackagescard">
                         <span class="populorpackagescardbanner"></span>
 
                         <img src="assets/images/populorpackage/tours/International-Tour-Package-by-GT-Holiday-370x375.webp"
                             alt="International Tour Package" class="img-fluid">
                         <div class="populorpackagescardcontent">
-                            <h4 class="headingthree">International Tour Packages</h4>
+                            <h4 class="headingthree">International Cruise Packages</h4>
                             <div class="secondrybtn">251 Tours</div>
                         </div>
                     </a>

@@ -501,7 +501,7 @@
         "packageName": "Best of Singapore",
         "pricePerPerson": "Starting From INR 53,990  Per Person",
         "duration": "5 Nights 6 Days",
-        "destinationCovered": "",
+        "destinationCovered": "Singapore",
         "includes": [
             "Accomodation",
             "Breakfast",
@@ -675,7 +675,9 @@
             "Driver Tips & Services of a professional & caring Tour Manager",
             "Travel Insurance (Valid for the age group till 60 Yrs)"
         ],
-        "note": "Prices are per person on Twin/Double/Triple sharing basis | Peak season surcharges may apply | GST & TCS will be applicable | Excludes Airfare, Visa, Insurance and personal expenses"
+        "exclusions":["Airfare, Visa, Insurance and personal expenses"],
+        "note": "Prices are per person on Twin/Double/Triple sharing basis | Peak season surcharges may apply | GST & TCS will be applicable"
+    
     },
     {
         "catagory": "international",
@@ -692,7 +694,8 @@
             "Driver Tips & Services of a professional & caring Tour Manager",
             "Travel Insurance (Valid for the age group till 60 Yrs)"
         ],
-        "note": "Prices are per person on Twin/Double/Triple sharing basis | Peak season surcharges may apply | GST & TCS will be applicable | Excludes Airfare, Visa, Insurance and personal expenses"
+        "exclusions":["Airfare, Visa, Insurance and personal expenses"],
+        "note": "Prices are per person on Twin/Double/Triple sharing basis | Peak season surcharges may apply | GST & TCS will be applicable."
     },
     {
         "catagory": "international",
@@ -908,7 +911,8 @@
             "Visit Krabi 7 Islands Sunset and Night Snorkelling Tour by Longtail boat with Dinner (SIC basis)",
             "Jungle Tour on PVT + Lunch (Emerald Pool + Hot spring + Tiger cave temple) (SIC Basis)",
             "Travel Insurance (Valid till the age of 60 yrs.)",
-            "Honeymoon Freebies: Honeymoon Set up on Request"
+            "Honeymoon Freebies",
+            "Honeymoon Set up on Request"
         ]
     },
     {
@@ -1483,6 +1487,7 @@
         ]
     },
     {
+        "catagory": "adventure_tours",
         "videoUrl": "https://www.youtube.com/embed/cgzoZE5VyEQ?si=ml4UXcHm74r9VAPO",
         "packageNameimg": "21.png",
         "packageName": "Nepal Adventure – Mustang Motorbike Tour",
@@ -1759,19 +1764,16 @@
         "destinationCovered": "Singapore Cruise",
         "duration": "4 Nights 5 Days",
         "inclusions": [
-            "Accommodation onboard",
-            "All Meals",
+            "Accommodation",
+            "Meals",
             "Unlimited Coffee, Tea & Soda",
             "Broadway-Quality Shows",
             "Character Experiences",
             "Movie Screenings",
-            "Pools, Waterslides, Splash Zones & Wading Pools",
-            "Disney's Oceaneer Club and Lab (3–10 yrs)",
-            "Edge (11–14 yrs)",
-            "Vibe (14–17 yrs)",
-            "Nightclubs, Lounges & Live Music",
-            "Adults-Only Pool & Whirlpool Spa",
-            "Fitness Center"
+            "Pools",
+            "Waterslides, Splash Zones & Wading Pools </br></br>",
+            "<b>Kids Clubs</b>:- <ol><li>Disney's Oceaneer Club (3 to 10 years old)</li><li>Disney's Oceaneer Lab (3 to 10 years old)</li><li>Edge (11 to 14 years old)</li> <li>Vibe (14 to 17 years old)</li></ol> </br> ",
+            "<b>Adult-Exclusive Activities</b>:- <ol><li>Nightclubs, Lounges & Live Music</li><li>Adults-Only Pool & Whirlpool Spa</li><li>Fitness Center</li></ol> "  
         ],
         "exclusions": [
             "TCS",
