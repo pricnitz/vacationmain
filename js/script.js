@@ -151,6 +151,7 @@ document.addEventListener("DOMContentLoaded", function () {
             disableOnInteraction: false,
         },
         spaceBetween: 0, // Default spacing
+               slidesPerView: 3,
         breakpoints: {
             0: {
                 slidesPerView: 1,
@@ -160,12 +161,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 slidesPerView: 2,
                 spaceBetween: 5,
             },
-            768: {
-                slidesPerView: 3,
-                spaceBetween: 5,
-            },
             1024: {
-                slidesPerView: 4,
+                slidesPerView: 3,
                 spaceBetween: 5,
             },
         },

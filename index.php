@@ -134,7 +134,7 @@ include('view/header.php')
                             alt="populorpackages1" class="img-fluid">
                         <div class="populorpackagescardcontent">
                             <h4 class="headingthree">India Tour Pages</h4>
-                            <div class="secondrybtn">251 Tours</div>
+                            <div class="secondrybtn">88 Tours</div>
                         </div>
                     </a>
                 </div>
@@ -146,12 +146,12 @@ include('view/header.php')
                             alt="International Tour Package" class="img-fluid">
                         <div class="populorpackagescardcontent">
                             <h4 class="headingthree">International Cruise Packages</h4>
-                            <div class="secondrybtn">251 Tours</div>
+                            <div class="secondrybtn">4 Tours</div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-6 mb-4">
-                    <a href="" class="populorpackagescard">
+                    <a href="packages.php" class="populorpackagescard">
                         <span class="populorpackagescardbanner"></span>
 
                         <img src="assets/images/populorpackage/tours/International-Honeymoon-Packages-370x375.jpg"
@@ -163,7 +163,7 @@ include('view/header.php')
                     </a>
                 </div>
                 <div class="col-lg-4 col-6 mb-4">
-                    <a href="" class="populorpackagescard">
+                    <a href="packages.php" class="populorpackagescard">
                         <span class="populorpackagescardbanner"></span>
 
                         <img src="assets/images/populorpackage/tours/Europe-tour-package-by-GT-Holiday-370x375.webp"
@@ -175,7 +175,7 @@ include('view/header.php')
                     </a>
                 </div>
                 <div class="col-lg-4 col-6 mb-4">
-                    <a href="" class="populorpackagescard">
+                    <a href="packages.php" class="populorpackagescard">
                         <span class="populorpackagescardbanner"></span>
 
                         <img src="assets/images/populorpackage/tours/Educational-Tour-Packages-370x375.webp"
@@ -332,35 +332,15 @@ include('view/header.php')
             </div>
         </section> -->
 
-    <section class="premiumgrooptours">
-        <div class="container">
-            <h2 class="headingtwo">Premium Group Tours</h2>
-            <div class="swiper premiumpackageSwiper">
-                <div class="swiper-wrapper" id="allpremiumpackages">
-                </div>
-                <div class="swiperbtn">
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                </div>
-            </div>
-
-            <div class="premiumgrooptourscontent">
-                <a href="packages.php#all" class="primary-btn"><span>Know More</span></a>
-            </div>
-
-
-    </section>
-
     <section class="trendingtour">
         <div class="container">
             <h2 class="headingtwo"> Trending Tours </h2>
             <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="trendingtourcard">
-                            <img src="assets/images/trendingtours/burj-al-arab-680x500.jpg"
-                                alt="burj-al-arab-680x500.jpg">
-                            <div class="trendingtourcardcontent">
+                <div class="swiper-wrapper" >
+                    <div class="swiper-slide" >
+                        <div class="trendingtourcard" >
+                            <img src="assets/images/domesticimg/vacationideas.14.singapur.png">
+                            <!-- <div class="trendingtourcardcontent">
                                 <p class="textfour">
                                     <i class="bi bi-geo-alt-fill"></i>
                                     Dubai - United Arab Emirates
@@ -370,15 +350,15 @@ include('view/header.php')
                                     <i class="bi bi-watch"></i>
                                     <p>3 Nights 4 days</p>
                                 </span>
-                            </div>
+                            </div> -->
 
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="trendingtourcard">
-                            <img src="assets/images/trendingtours/bay-of-garden-singapore-260x190.jpg"
+                            <img src="assets/images/domesticimg/vacationideas.15.vietnam.png"
                                 alt="burj-al-arab-680x500.jpg">
-                            <div class="trendingtourcardcontent">
+                            <!-- <div class="trendingtourcardcontent">
                                 <p class="textfour">
                                     <i class="bi bi-geo-alt-fill"></i>
                                     Dubai - United Arab Emirates
@@ -388,78 +368,38 @@ include('view/header.php')
                                     <i class="bi bi-watch"></i>
                                     <p>3 Nights 4 days</p>
                                 </span>
-                            </div>
+                            </div> -->
 
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="trendingtourcard">
-                            <img src="assets/images/trendingtours/gulmarg-snow-skiing-trip-680x500.jpg"
+                            <img src="assets/images/domesticimg/vacationideas.16.georgia.png"
                                 alt="burj-al-arab-680x500.jpg">
-                            <div class="trendingtourcardcontent">
-                                <p class="textfour">
-                                    <i class="bi bi-geo-alt-fill"></i>
-                                    Dubai - United Arab Emirates
-                                </p>
-                                <h5 class="headingfour">Dubai</h5>
-                                <span class="textthree">
-                                    <i class="bi bi-watch"></i>
-                                    <p>3 Nights 4 days</p>
-                                </span>
-                            </div>
+               
 
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="trendingtourcard">
-                            <img src="assets/images/trendingtours/maldives-680x500.jpg" alt="burj-al-arab-680x500.jpg">
-                            <div class="trendingtourcardcontent">
-                                <p class="textfour">
-                                    <i class="bi bi-geo-alt-fill"></i>
-                                    Dubai - United Arab Emirates
-                                </p>
-                                <h5 class="headingfour">Dubai</h5>
-                                <span class="textthree">
-                                    <i class="bi bi-watch"></i>
-                                    <p>3 Nights 4 days</p>
-                                </span>
-                            </div>
+                            <img src="assets/images/domesticimg/vacationideas.17.southafrica.png" alt="burj-al-arab-680x500.jpg">
+                        
 
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="trendingtourcard">
-                            <img src="assets/images/trendingtours/burj-al-arab-680x500.jpg"
+                            <img src="assets/images/domesticimg/vacationideas.19australia.png"
                                 alt="burj-al-arab-680x500.jpg">
-                            <div class="trendingtourcardcontent">
-                                <p class="textfour">
-                                    <i class="bi bi-geo-alt-fill"></i>
-                                    Dubai - United Arab Emirates
-                                </p>
-                                <h5 class="headingfour">Dubai</h5>
-                                <span class="textthree">
-                                    <i class="bi bi-watch"></i>
-                                    <p>3 Nights 4 days</p>
-                                </span>
-                            </div>
+                      
 
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="trendingtourcard">
-                            <img src="assets/images/trendingtours/burj-al-arab-680x500.jpg"
+                            <img src="assets/images/domesticimg/vacationideas.20.dubai.png"
                                 alt="burj-al-arab-680x500.jpg">
-                            <div class="trendingtourcardcontent">
-                                <p class="textfour">
-                                    <i class="bi bi-geo-alt-fill"></i>
-                                    Dubai - United Arab Emirates
-                                </p>
-                                <h5 class="headingfour">Dubai</h5>
-                                <span class="textthree">
-                                    <i class="bi bi-watch"></i>
-                                    <p>3 Nights 4 days</p>
-                                </span>
-                            </div>
+           
 
                         </div>
                     </div>
@@ -577,15 +517,13 @@ include('view/header.php')
                                     d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2...">
                                 </path>
                             </svg>
-                            <p class="mb-4">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra
-                                before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo,
-                                post-ironic heirloom try-hard pabst authentic iceland.</p>
+                            <p class="mb-4 testimonialrating">Had an amazing experience with  Travel Best India. They helped us with Singapore travel package for 5 day 6 night and itinerary.  Everything was perfectly organized and stress-free. Ankush Ji is incredibly professional, approachable, and always ready to help. Highly recommend their services for a smooth and memorable journey!</p>
                             <div class="d-flex align-items-center">
-                                <img src="assets/images/testimonials/Aravind-Raj-70x70.png" alt="testimonial"
-                                    class="rounded-circle me-3" width="48" height="48">
+                               
+                            
                                 <div>
-                                    <h6 class="mb-0 fw-semibold">Holden Caulfield</h6>
-                                    <small class="text-muted">UI DEVELOPER</small>
+                                    <h6 class="mb-0 fw-semibold">Sumit Gupta</h6>
+                            
                                 </div>
                             </div>
                         </div>
@@ -598,15 +536,11 @@ include('view/header.php')
                                     d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2...">
                                 </path>
                             </svg>
-                            <p class="mb-4">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra
-                                before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo,
-                                post-ironic heirloom try-hard pabst authentic iceland.</p>
+                            <p class="mb-4 testimonialrating">Hello my name is Ishan Shrivastava I am a Pranic healer from Bhopal, I have recently visited Goa and my trip was planned by Mr. Ankush he is very professional and a polite person, He planned the whole trip and chose the hotel according to my budget, this is my second time , I chose to travel best India, This trip was a memorable, hassle free and a lifetime experience for me and my wife.</p>
                             <div class="d-flex align-items-center">
-                                <img src="assets/images/testimonials/KP-Akash-70x70.png" alt="testimonial"
-                                    class="rounded-circle me-3" width="48" height="48">
+                            
                                 <div>
-                                    <h6 class="mb-0 fw-semibold">Holden Caulfield</h6>
-                                    <small class="text-muted">UI DEVELOPER</small>
+                                    <h6 class="mb-0 fw-semibold">Ishan Shrivastav</h6>
                                 </div>
                             </div>
                         </div>
@@ -619,15 +553,13 @@ include('view/header.php')
                                     d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2...">
                                 </path>
                             </svg>
-                            <p class="mb-4">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra
-                                before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo,
-                                post-ironic heirloom try-hard pabst authentic iceland.</p>
+                            <p class="mb-4 testimonialrating">We recently returned from a memorable trip to Dubai and Abu Dhabi, all thanks to our travel agent Mr. Ankush (Travel Best team). Hotel booking, city tours, and attraction tickets were all perfectly arranged. The day trip to Abu Dhabi was particularly well-organized, allowing us to enjoy major landmarks like the Sheikh Zayed Grand Mosque, Emirates Palace, and more without worrying about logistics.
+In Dubai, all our preferred attraction bookings were perfectly scheduled, including visits to the Burj Khalifa, half a day city tour, view of the palm & Desert Safari. A dedicated WhatsApp group with the local Dubai team made communication easy and support readily available. Additionally, Mr. Ankush provided a detailed day-wise itinerary before our departure, complete with pickup times and schedule for the day. The professionalism, responsiveness, truly enhanced our overall experience. Highly recommended for anyone planning a stress-free and well-curated vacation to Dubai!</p>
                             <div class="d-flex align-items-center">
-                                <img src="assets/images/testimonials/Poornesh-Jaganathan-70x70.png" alt="testimonial"
-                                    class="rounded-circle me-3" width="48" height="48">
+                              
                                 <div>
-                                    <h6 class="mb-0 fw-semibold">Holden Caulfield</h6>
-                                    <small class="text-muted">UI DEVELOPER</small>
+                                    <h6 class="mb-0 fw-semibold">Rajani Anandan</h6>
+                               
                                 </div>
                             </div>
                         </div>
@@ -640,15 +572,12 @@ include('view/header.php')
                                     d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2...">
                                 </path>
                             </svg>
-                            <p class="mb-4">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra
-                                before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo,
-                                post-ironic heirloom try-hard pabst authentic iceland.</p>
+                            <p class="mb-4 testimonialrating">Ankush is very professional and helped in planning one of the best tour for my family. The quality of hotels chosen for the trip provided exceptional service and the location was one of the best in the cities. Overall Ankur and team ensure that my family vacation was enjoyable and we get the best possible service in the tour. Thank you "Travel Best India". Keep up the good work.</p>
                             <div class="d-flex align-items-center">
-                                <img src="assets/images/testimonials/Poornesh-Jaganathan-70x70.png" alt="testimonial"
-                                    class="rounded-circle me-3" width="48" height="48">
+                            
                                 <div>
-                                    <h6 class="mb-0 fw-semibold">Holden Caulfield</h6>
-                                    <small class="text-muted">UI DEVELOPER</small>
+                                    <h6 class="mb-0 fw-semibold">Agraj Bhartiya</h6>
+                        
                                 </div>
                             </div>
                         </div>
@@ -661,15 +590,14 @@ include('view/header.php')
                                     d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2...">
                                 </path>
                             </svg>
-                            <p class="mb-4">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra
-                                before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo,
-                                post-ironic heirloom try-hard pabst authentic iceland.</p>
+                            <p class="mb-4 testimonialrating">Perhaps the best Travel partner I have found
+No hassles, no worries, all your travel needs will be taken care ensuring you have the best of times!
+Thank you Ankush for being pro-active and giving us a comfortable, fun and value for money experience.</p>
                             <div class="d-flex align-items-center">
-                                <img src="assets/images/testimonials/Rojin-Varghese-70x70.png" alt="testimonial"
-                                    class="rounded-circle me-3" width="48" height="48">
+                              
                                 <div>
-                                    <h6 class="mb-0 fw-semibold">Holden Caulfield</h6>
-                                    <small class="text-muted">UI DEVELOPER</small>
+                                    <h6 class="mb-0 fw-semibold">Harshad Singh</h6>
+        
                                 </div>
                             </div>
                         </div>
@@ -692,7 +620,7 @@ include('view/header.php')
                         <div class="latestblogcard">
                             <img src="assets/images/blogs/1.jpg" alt="burj-al-arab-680x500.jpg">
                             <div class="latestblogcardcontent">
-                                <h5 class="headingfour">Lorem ipsum dolor sit amet.</h5>
+                                <h5 class="headingfour">Your Ultimate Guide To Bali Tour Packages | Money Saving Tips For Indian Travellers</h5>
                             </div>
 
                         </div>
@@ -701,7 +629,7 @@ include('view/header.php')
                         <div class="latestblogcard">
                             <img src="assets/images/blogs/2.png" alt="burj-al-arab-680x500.jpg">
                             <div class="latestblogcardcontent">
-                                <h5 class="headingfour">Lorem ipsum dolor sit amet.</h5>
+                                <h5 class="headingfour">Your Ultimate Guide to Bali Tour Packages | Money Saving Tips for Indian Travellers</h5>
                             </div>
 
                         </div>
@@ -710,29 +638,12 @@ include('view/header.php')
                         <div class="latestblogcard">
                             <img src="assets/images/blogs/3.jpg" alt="burj-al-arab-680x500.jpg">
                             <div class="latestblogcardcontent">
-                                <h5 class="headingfour">Lorem ipsum dolor sit amet.</h5>
+                                <h5 class="headingfour">Travelling to Sri Lanka from South India | What to Expect and Essential Tips</h5>
                             </div>
 
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="latestblogcard">
-                            <img src="assets/images/blogs/3.jpg" alt="burj-al-arab-680x500.jpg">
-                            <div class="latestblogcardcontent">
-                                <h5 class="headingfour">Lorem ipsum dolor sit amet.</h5>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="latestblogcard">
-                            <img src="assets/images/blogs/3.jpg" alt="burj-al-arab-680x500.jpg">
-                            <div class="latestblogcardcontent">
-                                <h5 class="headingfour">Lorem ipsum dolor sit amet.</h5>
-                            </div>
-
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
 

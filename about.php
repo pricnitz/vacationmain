@@ -18,8 +18,8 @@ include('view/header.php')
             </div>
         </div>
 
-        <section class="aboutsection" style="position:relative;" >
-            <div class="container-fluid" style="background:#00BAB3; margin-top:15vh;">
+        <section class="aboutsection"  >
+            <div class="container-fluid" >
                 <div class="row">
                        <div class="col-lg-6 col-12">
                         <img src="assets/banners/man.png" alt="successful-businessman" class="w-100" style="margin-top:-25vh;">
@@ -32,10 +32,7 @@ include('view/header.php')
                  
                 </div>
             </div>
-            <div class="container" style="    position: absolute;
-    bottom: 0%;
-    left: 0%;
-    transform: translateX(10%);">
+            <div class="container aboutsectionparacontainer">
                 <div class="row">
                     <div class="col-lg-6"></div>
                     <div class="col-lg-6">

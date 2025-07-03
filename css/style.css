@@ -1121,6 +1121,17 @@ select.form-selected:focus {
 
 }
 
+.testimonialrating{
+    max-height: 30vh;
+    overflow: auto;
+    padding: 5px;
+    scroll-behavior: hidden;
+}
+
+.testimonialrating::-webkit-scrollbar {
+    display: none;
+}
+
 /* letest blog starts from here  */
 
 .latestblogcard {
@@ -1349,7 +1360,28 @@ select.form-selected:focus {
 
 .aboutsection {
     border-bottom: 1px solid gray;
+    position: relative;
 }
+
+.aboutsection .container-fluid{
+    background:#00BAB3; 
+    margin-top:15vh;
+}
+
+
+
+
+.aboutsection .container-fluid img{
+    margin-top: -25vh;
+}
+
+.aboutsection .aboutsectionparacontainer {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
 
 .aboutsection .aboutcontent {
     display: flex;
@@ -1365,6 +1397,12 @@ select.form-selected:focus {
     margin: 0 auto;
     padding: 20px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+@media (max-width:1150px) {
+    .aboutsection .aboutsectionparacontainer{
+        position: relative;
+    }
 }
 
 /* pakages starts from here */
