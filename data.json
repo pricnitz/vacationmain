@@ -871,7 +871,7 @@
         "videoUrl": "https://www.youtube.com/embed/75TxpOWab5M?si=rznYrzcIPwq09lZU",
         "packageNameimg": "vacationideas.15.vietnam.png",
         "packageName": "Vietnam Honeymoon Package",
-        "pricePerPerson": " Starting From INR 52500 per person",
+        "pricePerPerson": " Starting From INR 52,500 per person",
         "duration": "6 Nights 7 Days",
         "destinationCovered": " 3N Danang – 3N Phu Quoc",
         "inclusions": [
@@ -894,7 +894,7 @@
         "videoUrl": "",
         "packageNameimg": "22.png",
         "packageName": "Thailand Honeymoon Package",
-        "pricePerPerson": " Starting From INR 50500  per person",
+        "pricePerPerson": " Starting From INR 50,500  per person",
         "duration": "5 Nights 6 Days",
         "destinationCovered": " 2N Krabi – 3N Phuket",
         "inclusions": [
@@ -916,15 +916,15 @@
         "videoUrl": "https://www.youtube.com/embed/xo5QkI4fEr8?si=z9Gdet_PcbAwu34i",
         "packageNameimg": "23.png",
         "packageName": "Greece Honeymoon Package",
-        "pricePerPerson": " Starting From INR 117800 per person",
+        "pricePerPerson": " Starting From INR 1,17,800 per person",
         "duration": "6 Nights 7 Days",
         "destinationCovered": " 2N Athens – 2N Mykonos – 2N Santorini",
         "inclusions": [
-            "accommodation : 2 Nights accommodation in Athens based on the hotel category selected or similar, 2 Nights accommodation in Mykonos based on the hotel category selected or similar , 2 Nights accommodation in Santorini based on the hotel category selected or similar",
-            "meals : Daily Breakfast (Except Day 1), 1 Complimentary Dinner during the stay in Athens",
-            "transfers : Private round-trip transfers in Athens from airport-hotel-port with airconditioned taxi (can be used by 3 pax – with maximum 3 pieces of luggage) - if there are more luggage a minivan will be applied for the accordingly charge (06:00-22:45), Round trip transfers in Mykonos port –hotel and v.v. on SIC basis (06:00-22:45), Private transfer from Athens hotel to the port (ferry pier), Departure transfer hotel-Santorini airport on private basis, Shared transfer from Mykonos port to hotel and Mykonos hotel to port, Shared transfer from Santorini port to hotel and Santorini hotel to port",
-            "ferry_tickets : Normal Ferry ticket – Air-seat from Athens to Mykonos, Hydrofoil ticket economy class ticket: Mykonos-Santorini.",
-            "sightseeing : Athens Open tour get on get off Athens/ Riviera - 24 hrs + 1 Day free validity. Guests need to find the starting point and go on their own there., Walking tour in Mykonos town, Sunset Cruise with Dinner on board (organized) on sharing basis with transportation from/to meeting point (Food-drinks and 10 € entrance fee to the Volcano are not included) with transportation from/to meeting point - clients need to go by themselves to the pick-up point for the tour"
+            "<b>Accommodation:</b><ol><li>2 Nights accommodation in Athens based on the hotel category selected or similar</li><li>2 Nights accommodation in Mykonos based on the hotel category selected or similar</li><li>2 Nights accommodation in Santorini based on the hotel category selected or similar</li></ol> </br>",
+            "<b>Meals:</b><ol><li>Daily Breakfast (Except Day 1)</li><li>1 Complimentary Dinner during the stay in Athens</li></ol> </br>",
+            "<b>Transfers:</b><ol><li>Private round-trip transfers in Athens from airport-hotel-port with airconditioned taxi (for 3 pax max, 3 pieces of luggage; minivan charged extra if exceeded) (06:00–22:45)</li><li>Round trip transfers in Mykonos port–hotel and v.v. on SIC basis (06:00–22:45)</li><li>Private transfer from Athens hotel to the port (ferry pier)</li><li>Departure transfer from Santorini hotel to airport on private basis</li><li>Shared transfer from Mykonos port to hotel and Mykonos hotel to port</li><li>Shared transfer from Santorini port to hotel and Santorini hotel to port</li></ol> </br>",
+            "<b>Ferry Tickets:</b><ol><li>Normal Ferry ticket – Air-seat from Athens to Mykonos</li><li>Hydrofoil ticket economy class ticket: Mykonos–Santorini</li></ol> </br>",
+            "<b>Sightseeing: (Tour starts from a city centre point, transportation to & from the hotel is not included):</b><ol><li>Athens Open tour get-on get-off Athens/Riviera – 24 hrs + 1 Day free validity (Guests need to reach starting point on their own)</li><li>Walking tour in Mykonos town</li><li>Sunset Cruise with Dinner on board (organized) on sharing basis with transportation from/to meeting point (Food, drinks, and €10 Volcano entrance not included; clients must reach pick-up point themselves)</li></ol>"
         ],
         "insurance": [
             "Overseas Travel Insurance (up to 60 yrs age group only)"
@@ -935,11 +935,11 @@
         "videoUrl": "https://www.youtube.com/embed/Is8yrPbPTcw?si=ryFme04HTSfVyTwz",
         "packageNameimg": "24.png",
         "packageName": "Mauritius Honeymoon Package",
-        "pricePerPerson": " Starting From INR 72200 per person",
+        "pricePerPerson": " Starting From INR 72,200 per person",
         "duration": "5 Nights 6 Days",
         "destinationCovered": "Mauritius",
         "inclusions": [
-            "05 nights stay at Tarisa Resort & Spa on Superior room option or similar on HB basis.",
+            "05 nights stay at <b>Tarisa Resort & Spa on Superior room</b> option or similar on HB basis.",
             "Airport / hotel / airport transfers on SIC basis.",
             "Full Day North tour including visits of Fort Adelaide - Citadel, Caudan Waterfront, AapravasiGhat Museum, Model ship factory and shopping at Floreal Square",
             "Full Day Ile Aux Cerfs tour with speed boat transfers to the island on sharing basis (watersport activities at additional cost)",
@@ -954,7 +954,7 @@
         "videoUrl": "https://www.youtube.com/embed/pGpeBXogdmQ?si=KElQns0arWTOKmXM",
         "packageNameimg": "vacationideas.splendidkerala.png",
         "packageName": "Kerala Honeymoon Package",
-        "pricePerPerson": " Starting From INR 49900 per person",
+        "pricePerPerson": " Starting From INR 49,900 per person",
         "duration": "5 Nights 6 Days",
         "destinationCovered": "2N Munnar – 1N Thekkady – 1N Alleppey – 1N Kochi",
         "inclusions": [
@@ -976,7 +976,7 @@
         "videoUrl": "https://www.youtube.com/embed/3MGTmB3AK1E?si=5eNoZ6cVR949sbkH",
         "packageNameimg": "vacationideas.megicalhimachal.png",
         "packageName": "Himachal Honeymoon Package",
-        "pricePerPerson": " Starting From INR 52500 per person",
+        "pricePerPerson": " Starting From INR 52,500 per person",
         "duration": "6 Nights 7 Days",
         "destinationCovered": "2N Shimla – 3N Manali – 1N Chandigarh",
         "inclusions": [
@@ -992,8 +992,8 @@
             "All currently applicable hotel taxes except GST @ Current Rate"
         ],
         "insurance": [
-            "Standard travel insurance coverage for the entire duration of the tour. ",
-            " For guests aged 70 and above, or those choosing to extend their stay, additional insurance fees may apply to accommodate these specific needs."
+            "Standard travel insurance coverage for the entire duration of the tour",
+            "For guests aged 70 and above, or those choosing to extend their stay, additional insurance fees may apply to accommodate these specific needs."
         ]
     },
     {
@@ -1001,7 +1001,7 @@
         "videoUrl": "https://www.youtube.com/embed/mOSzmJZ4tBA?si=rWnjtjbGD-tTgsbL",
         "packageNameimg": "5.png",
         "packageName": "Andaman Honeymoon Package",
-        "pricePerPerson": " Starting From INR 59900 per person",
+        "pricePerPerson": " Starting From INR 59,900 per person",
         "duration": "4 Nights 5 Days",
         "destinationCovered": " 1N Port Blair – 2N Havelock – 1N Port Blair",
         "inclusions": [
@@ -1026,7 +1026,7 @@
         "videoUrl": "https://www.youtube.com/embed/W8f79_5tOIg?si=r11Yo6ahpIIrXpQ_",
         "packageNameimg": "6.png",
         "packageName": "Nepal Honeymoon Package",
-        "pricePerPerson": " Starting From INR 37500 per person",
+        "pricePerPerson": " Starting From INR 37,500 per person",
         "duration": "4 Nights 5 Days",
         "destinationCovered": " 2N Kathmandu – 2N Pokhara – 1N Kathmandu",
         "inclusions": [
@@ -1161,7 +1161,7 @@
         "videoUrl": "https://www.youtube.com/embed/HOkI42vH3kQ?si=W8yEyH55OcOe2mNm",
         "packageNameimg": "8.png",
         "packageName": "Explore Japan",
-        "pricePerPerson": "  Starting From INR 48,390 Per Person",
+        "pricePerPerson": "  Starting From INR 4,83,900  Per Person",
         "destinationCovered": "  Tokyo – Kyoto – Osaka",
         "duration": "8 Nights 9 Days",
         "destinations": "3N Tokyo – 2N Kyoto – 3N Osaka",
@@ -1436,84 +1436,6 @@
         ]
     },
     {
-        "catagory": "group",
-        "videoUrl": "https://www.youtube.com/embed/pGpeBXogdmQ?si=KElQns0arWTOKmXM",
-        "packageNameimg": "vacationideas.splendidkerala.png",
-        "packageName": "Kerala Group Tour Package",
-        "pricePerPerson": "Starting From INR 20,500 Per Person",
-        "duration": "5 Nights 6 Days",
-        "destinationCovered": "Explore Periyar National Park, Munnar, Thekkady, Alleppey and Kochi.",
-        "inclusions": [
-            "Accommodation",
-            "Meals",
-            "Sightseeing",
-            "Transfers",
-            "Flight (in some packages)"
-        ]
-    },
-    {
-        "catagory": "family_tours",
-        "videoUrl": "https://www.youtube.com/embed/uOtKXc10jJU?si=ndR3P-vVYQtrFLsM",
-        "packageNameimg": "vacationideas.14.singapur.png",
-        "packageName": "Best of Singapore",
-        "pricePerPerson": "  Starting From INR 53,990 Per Person",
-        "destinationCovered": "Singapore  ",
-        "duration": "5 Nights 6 Days",
-        "inclusions": [
-            "Accommodation",
-            "Breakfast",
-            "Sightseeing",
-            "Transfers"
-        ],
-        "notes": "Prices are per person on twin sharing basis | Peak season surcharges may apply | GST & TCS will be applicable"
-    },
-    {
-        "catagory": "family_tours",
-        "videoUrl": "https://www.youtube.com/embed/75TxpOWab5M?si=rznYrzcIPwq09lZU",
-        "packageNameimg": "vacationideas.15.vietnam.png",
-        "packageName": "Highlights Of Vietnam",
-        "pricePerPerson": " Starting From INR 54,990 Per Person",
-        "destinationCovered": "2N Hanoi – 1N Halong Bay – 3N Ho Chi Minh",
-        "duration": "6 Nights 7 Days",
-        "inclusions": [
-            "Accommodation",
-            "Breakfast",
-            "Sightseeing",
-            "Transfers"
-        ]
-    },
-    {
-        "catagory": "spiritual_tours",
-        "videoUrl": "https://www.youtube.com/embed/P1Tcs4ne4hw?si=9pJ67uWCrapnc6XS",
-        "packageNameimg": "vacationideas.southindiatample.png",
-        "packageName": "South India Temple Circuit",
-        "pricePerPerson": "Starting From INR 25,500 Per Person (Min 2 Pax)",
-        "destinationCovered": " 1N Madurai – 2N Rameshwaram – 1N Kanyakumari – 2N Kovalam",
-        "duration": "6 Nights 7 Days",
-        "inclusions": [
-            "Entry: Madurai",
-            "Exit: Trivandrum",
-            "Standard Hotel Accommodation",
-            "Breakfast only at all places",
-            "Transfers in Sedan Car for 02 pax"
-        ]
-    },
-    {
-        "catagory": "spiritual_tours",
-        "videoUrl": "https://www.youtube.com/embed/Xxo-Xkqggrs?si=ibf8QAY7JXBtWe4s",
-        "packageNameimg": "vacationideas.uttarpradesh.pilgrim.png",
-        "packageName": "Uttar Pradesh Pilgrim Package",
-        "pricePerPerson": "Starting From INR 15,000 Per Person (Min 6 Pax) with Breakfast",
-        "destinationCovered": "2N Ayodhya – 1N Prayagraj – 2N Varanasi ",
-        "duration": "5 Nights 6 Days",
-        "inclusions": [
-            "Accommodation on double occupancy as per above mentioned",
-            "Innova Crysta with all sightseeing, DA, toll & Parking",
-            "Meal plan as mentioned above (Breakfast included)",
-            "GST Included"
-        ]
-    },
-    {
         "catagory": "adventure_tours",
         "videoUrl": "https://www.youtube.com/embed/5pdIg1d5Ma8?si=eXlHI6JOS4W7Ew-U",
         "packageNameimg": "19.png",
@@ -1652,7 +1574,7 @@
             "04 Nights accommodation at M Social/ Ibis Bencoolen or similar in Singapore",
             "04 Continental breakfast",
             "04 Dinners at Indian restaurants",
-            "Note: Packed lunches, if applicable, will be Jain/vegetarian",
+            "<b>Note: Packed lunches, if applicable, will be Jain/vegetarian</b>",
             "Guided City Tour of Singapore",
             "Visit Gardens By the Bay: Flower Dome + Cloud Forest",
             "Visit Mandai Bird Park",
@@ -1683,14 +1605,17 @@
             "02 Nights accommodation at Hotel Grand Lagoi Bintan or similar in Bintan",
             "08 Continental breakfast (Except Day 1)",
             "08 Dinners at Indian restaurants",
-            "Note: Packed lunches, if applicable, will be Jain/vegetarian",
+            "<b>Note: Packed lunches, if applicable, will be Jain/vegetarian</b>",
             "Return economy class airfare as per the itinerary",
             "Accommodations at the hotels specified above or similar",
             "Singapore Visa & Airport taxes (Any further increase in the same has to be borne by the guest)",
             "Services of a professional & multilingual Tour Manager/ local representative (subject to minimum 25 customers)",
             "Cost of the ticket taxes for the above itinerary as of 1st Dec 2024",
             "Medical insurance for the duration of the tour is included in the tour price (additional charges for passengers above 60 or extended stays)",
-            "Meals, transfers, entrances, sightseeing and surface transport as mentioned in the itinerary"
+            "Meals, transfers, entrances, sightseeing and surface transport as mentioned in the itinerary </br></br>",
+            "<b>Kuala Lumpur:-</b><ol><li>Photo stop at PETRONAS Twin Tower</li><li>Orientation Tour of Putrajaya</li><li>Visit Batu Caves</li><li>Guided City Tour of Kuala Lumpur</li><li>Visit to chocolate Boutique</li><li>Genting Highlands with 2 ways cable car</li><li>Visit Genting Skyworld Theme Park</li><li>Visit Sunway Lagoon (Optional)</li></ol> </br>",
+            "<b>Singapore:-</b><ol><liVisit Gardens By the Bay - Visit Flower Dome + Cloud Forest</li><li>Guided city tour of Singapore </li><li>Visit Mandai Bird Paradise</li><li>Visit MBS Sky Park (Non Peak Time)</li><li>Visit Sentosa Island by  One way Cable car ride</li><li>Madame Tussauds with  Bollywood Avenue, Spirit of Singapore, Images of Singapore, 4D Marvel show</li><li>Wings of Time Show</li><li>Visit Universal Studios & Sea Aquarium (Optional)</li></ol> </br>",
+            "<b>Bintan - Indonesia:</b><ol><li>Relax and Explore the exotic Bintan Islands</li></ol>"
         ]
     },
     {
@@ -1715,7 +1640,31 @@
             "Return Airport Transfer (Airport - Hotel - Airport) – (SIC Basis)",
             "Singapore Hotel – Singapore Cruise Terminal – (SIC Basis)",
             "Travel Insurance (Valid for the age group till 60 Yrs.)"
-        ]
+        ],
+        "exclusions": [
+            "TCS & GST",
+            "Gratuity",
+            "Departure PCR test, if applicable",
+            "All flights services",
+            "Visa Services",
+            "Porterage",
+            "High & Peak Season Surcharge",
+            "Meals not mentioned in the itinerary",
+            "Any tips for guide & Driver",
+            "Anything not mentioned in the inclusions",
+            "Airport Taxes (Domestic & International)",
+            "English Speaking Guide",
+            "Pre & Post tour services & cost",
+            "Expenditure of a personal nature (such as use of Mini-Bar & Refrigerator, laundry service, telephone calls, camera fee, tips, etc.)",
+            "All drink and beverages",
+            "Hotel promotional rates not valid during Blackout Period / Surcharge Dates / Stop Sales on Hotel",
+            "Blackout Dates: Rates won’t be valid if the stay falls on or between the mentioned dates",
+            "Midnight surcharge",
+            "Tourism Tax (if applicable)",
+            "All transfers are made only on point-to-point basis",
+            "The rates are valid for minimum 02 adults travelling together at all times"
+        ],
+        "note": "Gratuity of USD 38 per person for 3 nights will have to be paid by the passenger on board."
     },
     {
         "catagory": "internationsalcruise",
@@ -1732,7 +1681,6 @@
             "06 Continental breakfast",
             "06 Jain / vegetarian / non vegetarian dinners at Indian Restaurants",
             "Full board meal plan on Cruise",
-            "Note: Packed lunches, if applicable, will be Jain/vegetarian",
             "Return economy class airfare as per the itinerary",
             "Singapore Visa & Airport taxes (Any further increase to be borne by the guest)",
             "Services of a professional & multilingual Tour Manager/ local representative (subject to minimum 25 customers)",
@@ -1745,9 +1693,32 @@
             "Visit MBS Sky Park (Non Peak Timings)",
             "Visit Sentosa Island by one-way Cable Car",
             "Madame Tussauds with Bollywood Avenue, 4D Marvel Show & more",
-            "Wings of Time Show",
-            "Full onboard entertainment on Genting Dream Cruise"
-        ]
+            "Wings of Time Show ",
+            "Full onboard entertainment on Genting Dream Cruise </br></br>",
+            "<b>Kuala Lumpur:</b> <ol><li>Genting Highlands with 2 ways cable car</li><li>Visit Genting Skyworld Theme Park</li></ol></br>",
+            "<b>Singapore:</b> <ol><li>Visit Gardens By the Bay : Flower Dome + Cloud Forest</li><li>Visit Mandai Bird Park/li><li>Visit MBS Sky Park (Non Peak Timings)</li><li>Visit Sentosa Island by One way Cable car ride</li><li>Madame Tussauds with Bollywood Avenue, Spirit of Singapore, Images of Singapore, 4D Marvel show</li><li>Wings of Time Show</li></ol> </br>",
+            "<b>Genting Dream Cruise :</b><ol><li>Onboard Genting Dream Cruise with full board meals, entertainment & activities</li></ol>"
+        ],
+        "exclusions": [
+            "The cost of deviation, in case you want to deviate from the group departure dates mentioned in the brochure.",
+            "City Tax or Tourism tax Thailand, Malaysia, Singapore.",
+            "Thailand Visa (If applicable)",
+            "Malaysia Visa (If applicable)",
+            "Visa charges for NRI passengers. (If applicable)",
+            "Cruise Gratuity (applicable for cruise holidays)",
+            "Cost of deviation will be advised on confirmation of the deviation date, in case you want to deviate from the group departure dates mentioned in the brochure.",
+            "The tour cost does not include POE charges, porterage and passport charges.",
+            "Cost of Basic Travel Quota equivalent to USD 10,000.",
+            "Govt Taxes & Service taxes as applicable.",
+            "The cost of airfare included in the above tour cost is based on the fare structure existing as on 1st Dec, 2023. Any further increase in the airfare due to an increase in the fuel price, change in Government regulations, taxes, etc., charged by the airline will have to be borne by the passengers. Thomas Cook will not be held responsible for the same.",
+            "Any increase in the rate of exchange leading to increase in surface transportation and land arrangements which may come into effect prior to departure.",
+            "The tour price is subject to increase without notice if this rate of exchange changes substantially prior to departure.",
+            "Any expenses of personal nature such as laundry, wines, mineral water, food and drink not in the regular menus provided by us.",
+            "Tips to guides, hotel waiters, drivers etc.",
+            "Meals other than what is mentioned in itinerary.",
+            "Cost of excursions, city sightseeing, entrance fees and local guides availed of by the passenger other than those included in your itinerary"
+        ],
+        "Note": " Packed lunches, if applicable, will be Jain/vegetarian"
     },
     {
         "catagory": "internationsalcruise",
@@ -1764,6 +1735,19 @@
             "09 Lunches as per itinerary",
             "09 Dinners as per itinerary",
             "Day & Late-Night Snacks available"
+        ],
+        "exclusions": [
+            "Airfare",
+            "Visa Fees and Travel Insurance",
+            "Any expenses of personal nature",
+            "Meals other than that what is mentioned in your itinerary.",
+            "Any services not mentioned in the inclusions list",
+            "Drinks including Water during meals or sightseeing tours are not included",
+            "Surcharges as applicable due to peak season, surcharge dates, trade fair dates, Christmas, New Year week.",
+            "Sight Seeing",
+            "Onboard Gratuities",
+            "Shore Excursions",
+            "Transfers to and fro the ship terminal"
         ]
     },
     {
@@ -1788,6 +1772,21 @@
             "Nightclubs, Lounges & Live Music",
             "Adults-Only Pool & Whirlpool Spa",
             "Fitness Center"
+        ],
+        "exclusions": [
+            "TCS",
+            "Gratuities",
+            "WiFi",
+            "Bottled Water, Alcoholic Beverages, Specialty Coffees, Teas & Drinks",
+            "Spa & Salon",
+            "Ground Transfers",
+            "Air Travel",
+            "Pre and Post-Cruise Hotel Stays",
+            "<b>More Family Fun</b>",
+            "Royal Court Royal Tea, a tea party with Disney Characters for kids ages 3 to 12",
+            "Bibbidi Bobbidi Boutique and The Pirate’s League, offering magical makeovers for children",
+            "<b>Adult-Exclusive Dining</b>",
+            "Palo"
         ]
     }
 ]

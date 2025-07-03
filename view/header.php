@@ -527,7 +527,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
      container.innerHTML = packages.map((pkg, index) => `
        <div class="col-lg-4 col-sm-6 col-12 mb-3">
-         <div class="package" onclick="openPackageModal(${index}, 'wildlife_tours')" data-bs-toggle="modal" data-bs-target="#exampleModal">
+         <div class="package" onclick="openPackageModal(${index}, 'adventure_tours')" data-bs-toggle="modal" data-bs-target="#exampleModal">
            <img class="w-100" src="assets/images/domesticimg/${pkg.packageNameimg}" alt="${pkg.packageName}">
          </div>
        </div>
@@ -579,7 +579,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       packages = await getspiritualPackages(); 
     } else if (type === 'wildlife_tours') {
       packages = await getwildlifePackages(); 
-    } else if (type === 'adventurepackage') {
+    } else if (type === 'adventure_tours') {
       packages = await getAdvanturePackages();  
     } else if (type === 'corporet_tours') {
       packages = await getCorporatePackage(); 
@@ -614,7 +614,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                        `).join('')}
                      </ul>`
                   )
-                : (
+                :(
                     `<p class="textthree"><span class="info-label">Day wise itinerary:</span></p>
                      <ul class="textthree">
                        ${(pkg.daywiseitenary || []).map(item => `
@@ -624,7 +624,30 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                   )
             }
             </div>
-            ${(pkg.note || pkg.notes) ? `<p class="textthree"><small class="info-label">Note:</small> <small>${pkg.note || pkg.notes}</small></p>` : ''}
+            <div>
+            ${
+              (pkg.exclusions || pkg.excludes)
+                ? (
+                    `<p class="textthree"><span class="info-label">Exclusions :</span></p>
+                     <ul class="textthree">
+                       ${(pkg.exclusions || pkg.excludes || []).map(item => `
+                         <li><i class="ri-checkbox-circle-line"></i> ${item}</li>
+                       `).join('')}
+                     </ul>`
+                  )
+                :(
+                    ``
+                  )
+            }
+            </div>
+              ${(pkg.insurance || pkg.insurances) ? `
+                <div class="textthree"><span class="info-label">Insurance: </span>
+                    <ul class="textthree">
+                    ${(pkg.insurance || pkg.insurances || []).map(item => `<li><i class="ri-checkbox-circle-line"></i> ${item} </li>`).join('')}
+                    </ul>
+                </div>
+              ` : ``}            
+              ${(pkg.note || pkg.notes) ? `<p class="textthree"><small class="info-label">Note:</small> <small>${pkg.note || pkg.notes}</small></p>` : ''}
           </div>
           <form action="" class="packagecard-form" method="post">
             <input type="hidden" name="tourtype" value="${type}">
