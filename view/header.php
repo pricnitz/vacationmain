@@ -1,11 +1,26 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $whatsappNumber = "918109653732"; // Your WhatsApp number without +91
+    $whatsappNumber = "918109653732"; // Add country code here for reliability
 
-    $message = ""; // Initialize message
+    $message = ""; 
+
+    // ✅ Contact Form Submission (Place this before the broader 'name' checks)
+    if (isset($_POST['contactname'], $_POST['contactcity'], $_POST['contactemail'], $_POST['contactphone'], $_POST['contactmessage'])) {
+        $name = htmlspecialchars($_POST['contactname']);
+        $lastName = htmlspecialchars($_POST['contactcity']);
+        $email = htmlspecialchars($_POST['contactemail']);
+        $phone = htmlspecialchars($_POST['contactphone']);
+        $cmessage = htmlspecialchars($_POST['contactmessage']);
+
+        $message = "*New Contact Form Submission:*\n"
+                 . "*Name:* $name $lastName\n"
+                 . "*Email:* $email\n"
+                 . "*Phone:* $phone\n"
+                 . "*Message:* $cmessage";
+    }
 
     // Tour Package Enquiry
-    if (isset($_POST['tourtype'], $_POST['packagename'])) {
+    elseif (isset($_POST['tourtype'], $_POST['packagename'])) {
         $ptourType = htmlspecialchars($_POST['tourtype']);
         $packageName = htmlspecialchars($_POST['packagename']);
 
@@ -84,29 +99,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                  . "Position: $position\n"
                  . "Resume: $resumeInfo";
     }
-
-
-    // bookibg details Application
-    elseif (isset($_POST['name'], $_POST['city'], $_POST['phone'], $_POST['whatsapp'], $_POST['travel_date'], $_POST['people_count'], $_POST['tour_type'])) {
-    $name = htmlspecialchars($_POST['name']);
-    $city = htmlspecialchars($_POST['city']);
-    $email = isset($_POST['email']) ? htmlspecialchars($_POST['email']) : '';
-    $phone = htmlspecialchars($_POST['phone']);
-    $whatsapp = htmlspecialchars($_POST['whatsapp']);
-    $travel_date = htmlspecialchars($_POST['travel_date']);
-    $people_count = htmlspecialchars($_POST['people_count']);
-    $tour_type = htmlspecialchars($_POST['tour_type']);
-
-    $message = "📝 *New Tour Booking Enquiry*\n"
-             . "👤 Name: $name\n"
-             . "🏙️ City: $city\n"
-             . "📧 Email: $email\n"
-             . "📞 Phone: $phone\n"
-             . "📲 WhatsApp: $whatsapp\n"
-             . "📅 Travel Date: $travel_date\n"
-             . "👥 No. of People: $people_count\n"
-             . "🗺️ Tour Type: $tour_type";
-}
 
     // Final WhatsApp redirection
     if (!empty($message)) {
@@ -204,7 +196,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </ul>
             </div>
             <div class="contact">
-                <a href="tel:+91 6264324845 " class="secondrybtn">6264324845</a>
+                <a href="tel:+91 6264324845" class="secondrybtn">+91 6264324845</a>
             </div>
         </div>
         <div class="mobile-nav">

@@ -53,7 +53,7 @@ include('view/header.php')
                     </div>
                 </div>
                 <div class="row mt-3">
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 mb-5">
                          <div class="blogcard">
                             <div class="img"><img src="assets/images/blogs/1.jpg" alt="blogimage"></div>
                             <div class="blogpara">
@@ -63,7 +63,7 @@ include('view/header.php')
                             <a href="./blogone.php" class="secondrybtn"><span>Read More</span></a>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 mb-5">
                         <div class="blogcard">
                             <div class="img"><img src="assets/images/blogs/2.png" alt="blogimage"></div>
                             <div class="blogpara">
@@ -73,14 +73,24 @@ include('view/header.php')
                             <a href="./blogtwo.php" class="secondrybtn"><span>Read More</span></a>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 mb-5">
                         <div class="blogcard">
-                            <div class="img"><img src="assets/images/blogs/3.jpg" alt=""></div>
+                            <div class="img"><img src="assets/images/blogs/3.jpg" alt="img"></div>
                             <div class="blogpara">
                             <h5 class="headingfour">Travelling to Sri Lanka from South India | What to Expect and Essential Tips</h5>
                             <p class="textthree">Sri Lanka is an ideal destination for South Indians.</p>
                             </div>
                             <a href="./blogthree.php" class="secondrybtn"><span>Read More</span></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-5">
+                        <div class="blogcard">
+                            <div class="img"><img src="assets/images/blogs/4.avif" alt="img"></div>
+                            <div class="blogpara">
+                            <h5 class="headingfour">Travelling to Sri Lanka from South India | What to Expect and Essential Tips</h5>
+                            <p class="textthree">Sri Lanka is an ideal destination for South Indians.</p>
+                            </div>
+                            <a href="./blogfour.php" class="secondrybtn"><span>Read More</span></a>
                         </div>
                     </div>
                 </div>

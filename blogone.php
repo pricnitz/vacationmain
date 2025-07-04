@@ -59,29 +59,36 @@ include('view/header.php')
                 </div>
             </div>
 
-            <div class="col-lg-4">
+               <div class="col-lg-4">
                 <div class="card mb-4 sidebar-card border-0">
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Latest From</h5>
                         <div class="d-flex mb-3">
                             <img src="assets/images/blogs/1.jpg" class="img-fluid rounded me-3" style="max-width:90px; width:100%;" alt="Thumbnail 1">
                             <div>
-                                <a href="#" class="text-decoration-none text-dark fw-bold small">What is the best time to visit Kerala?</a>
+                                <a href="blogone.php" class="text-decoration-none text-dark fw-bold small">Your Ultimate Guide To Bali Tour Packages | Money Saving Tips For Indian Travellers</a>
                                 <p class="text-muted small mb-0">Learn about Kerala's seasons.</p>
                             </div>
                         </div>
                         <div class="d-flex mb-3">
                             <img src="assets/images/blogs/2.png" class="img-fluid rounded me-3" style="max-width:90px; width:100%;" alt="Thumbnail 2">
                             <div>
-                                <a href="#" class="text-decoration-none text-dark fw-bold small">Europe Travel Guide | Money-Saving Tips</a>
+                                <a href="blogtwo.php" class="text-decoration-none text-dark fw-bold small">Your Ultimate Guide to Bali Tour Packages | Money Saving Tips for Indian Travellers</a>
                                 <p class="text-muted small mb-0">Save big on your European trip.</p>
                             </div>
                         </div>
-                        <div class="d-flex">
+                        <div class="d-flex  mb-3">
                             <img src="assets/images/blogs/3.jpg" class="img-fluid rounded me-3" style="max-width:90px; width:100%;" alt="Thumbnail 3">
                             <div>
-                                <a href="#" class="text-decoration-none text-dark fw-bold small">Travelling to Sri Lanka | Must-Visit Places & Budget Tips</a>
+                                <a href="blogthree.php" class="text-decoration-none text-dark fw-bold small">Travelling to Sri Lanka | Must-Visit Places & Budget Tips</a>
                                 <p class="text-muted small mb-0">Discover Sri Lanka's beauty.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex  mb-3">
+                            <img src="assets/images/blogs/4.avif" class="img-fluid rounded me-3" style="max-width:90px; width:100%;" alt="Thumbnail 3">
+                            <div>
+                                <a href="blogfour.php" class="text-decoration-none text-dark fw-bold small">IndiGo launches direct flights between Mumbai and Amsterdam</a>
+                              
                             </div>
                         </div>
                     </div>

@@ -23,28 +23,27 @@ include('view/header.php')
                     <div class="col-lg-6">
                         <div class="contactform">
                             <h4 class="headingthree">Get in touch with us!</h4>
-                            <form id="bookingForm" class="homeform">
+                            <form id="bookingForm" class="homeform" method="post">
                                 <div class="row">
                                     <div class="col-lg-6 mb-3">
-                                        <input type="text" name="name" class="form-controll" placeholder="Name *"
+                                        <input type="text" name="contactname" class="form-controll" placeholder="Name *"
                                             required>
                                     </div>
                                     <div class="col-lg-6 mb-3">
-                                        <input type="text" name="city" class="form-controll"
+                                        <input type="text" name="contactcity" class="form-controll"
                                             placeholder="Last Name" required>
                                     </div>
                                     <div class="col-lg-12 mb-3">
-                                        <input type="email" name="email" class="form-controll" placeholder="Email">
+                                        <input type="email" name="contactemail" class="form-controll" placeholder="Email">
                                     </div>
                                     <div class="col-lg-12 mb-3">
-                                        <input type="tel" name="phone" class="form-controll"
+                                        <input type="tel" name="contactphone" class="form-controll"
                                             placeholder="Phone Number *" required>
                                     </div>
                                     
                                  
                                     <div class="col-lg-12 col-12 mb-3">
-                                        <textarea type="text" name="people_count" class="form-controll"
-                                            placeholder="Enter your messgae" required>
+                                        <textarea type="text" name="contactmessage" class="form-controll" placeholder="Enter your messgae" required>
                                         </textarea>
                                     </div>
                                     
