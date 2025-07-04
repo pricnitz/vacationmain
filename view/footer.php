@@ -18,7 +18,7 @@
                     <div class="footerheadercardcontent">
                         <h4 class="headingfour">Call Us On </h4>
                         <a class="texttwo" href="tel:+916264324845">+91 6264324845</a>
-                        <a class="texttwo" href="tel:+916264324845">+91 6264324845</a>
+      
                         <!-- <a href="callto:">+91 8888888888</a> -->
                     </div>
                 </div>
@@ -104,6 +104,7 @@
                         <li><a href="#">Singapore</a></li>
                         <li><a href="#">Malaysia</a></li>
                         <li><a href="#">Dubai</a></li>
+                        <li><a href="#">Europe</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-12">
