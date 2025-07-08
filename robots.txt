@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://vacationideas.in/sitemap.xml
