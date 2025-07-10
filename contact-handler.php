@@ -9,18 +9,7 @@ require 'PHPMailer/Exception.php';
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $mail = new PHPMailer(true);
     try {
-$mail->isSMTP();
-$mail->Host       = 'smtpout.secureserver.net';
-$mail->SMTPAuth   = true;
-$mail->Username   = 'info@vacationideas.in';       // your full email
-$mail->Password = 'Vactionidea123@-';    // exact webmail password
-$mail->SMTPSecure = 'tls';                         // use tls
-$mail->Port       = 587;                           // 587 for TLS
-                                     // 587 for TLS
-
-        // Email content
-        $mail->setFrom('info@vacationideas.in', $_POST['contactname']); // from your domain
-        $mail->addAddress('travelbest.vacations@gmail.com');                    // recipient
+            // recipient
 
         $mail->isHTML(true);
         $mail->Subject = 'New Contact Form Submission';
