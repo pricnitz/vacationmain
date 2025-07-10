@@ -8,7 +8,6 @@ $metaDesc = "Contact us for any inquiries.";
             <div class="container">
                 <div class="row">
                     <img src="assets/banners/vacationideas1243X641.ABOUT.png" alt="aboutbanner" class="video">
-
                 </div>
             </div>
         </section>

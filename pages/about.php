@@ -20,10 +20,11 @@ $metaDesc = "Learn more about our PHP development journey.";
         </div>
 
         <section class="aboutsection"  >
-            <div class="container-fluid" >
-                <div class="row">
+            <div class="container-fluid " >
+                <div class="container">
+                     <div class="row">
                        <div class="col-lg-6 col-12">
-                        <img src="assets/banners/man.png" alt="successful-businessman" class="w-100" style="margin-top:-25vh;">
+                        <img src="assets/banners/man5.png" alt="successful-businessman" class="w-100" style="margin-top:-25vh;">
 
                     </div>
                     <div class="col-lg-6 col-12">
@@ -32,6 +33,8 @@ $metaDesc = "Learn more about our PHP development journey.";
                  
                  
                 </div>
+                </div>
+               
             </div>
             <div class="container aboutsectionparacontainer">
                 <div class="row">

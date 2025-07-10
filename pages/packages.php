@@ -1,3 +1,9 @@
+    <?php
+$pageTitle = "About Us - My PHP Site";
+$metaDesc = "Learn more about our PHP development journey.";
+?>
+    
+    
     <main >
         <section class="hero pageshero">
             <div class="container">
@@ -120,3 +126,7 @@
             </div>
         </section>
     </main>
+
+<?php
+include('view/footer.php')
+?>

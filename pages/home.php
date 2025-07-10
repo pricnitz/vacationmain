@@ -1,3 +1,8 @@
+<?php
+$pageTitle = "Vacation Ideas - Your Travel Partner";
+$metaDesc = "Explore the world with our curated travel packages and expert tips.";
+?>
+
 
 <main>
     <section id="hero" class="hero">
@@ -121,7 +126,7 @@
             <h2 class="headingtwo">Popular Packages</h2>
             <div class="row">
                 <div class="col-lg-8 col-12 mb-4">
-                    <a href="packages.php" class="populorpackagescard">
+                    <a href="index.php?page=packages" class="populorpackagescard">
                         <span class="populorpackagescardbanner"></span>
 
                         <img src="assets/images/populorpackage/tours/India-Tour-Packages-770x375.webp"
@@ -133,7 +138,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-6 mb-4">
-                    <a href="packages.php" class="populorpackagescard">
+                    <a href="index.php?page=packages" class="populorpackagescard">
                         <span class="populorpackagescardbanner"></span>
 
                         <img src="assets/images/populorpackage/tours/International-Tour-Package-by-GT-Holiday-370x375.webp"
@@ -145,7 +150,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-6 mb-4">
-                    <a href="packages.php" class="populorpackagescard">
+                    <a href="index.php?page=packages" class="populorpackagescard">
                         <span class="populorpackagescardbanner"></span>
 
                         <img src="assets/images/populorpackage/tours/International-Honeymoon-Packages-370x375.jpg"
@@ -157,11 +162,11 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-6 mb-4">
-                    <a href="packages.php" class="populorpackagescard">
+                    <a href="index.php?page=packages" class="populorpackagescard">
                         <span class="populorpackagescardbanner"></span>
 
                         <img src="assets/images/populorpackage/tours/Europe-tour-package-by-GT-Holiday-370x375.webp"
-                            EMI-Option-GT-Holidays-1-768x1085.jpg alt="Europe-tour-package" class="img-fluid">
+                          alt="Europe-tour-package" class="img-fluid">
                         <div class="populorpackagescardcontent p-5">
                             <h4 class="headingthree">Europe Tour Packages</h4>
                             <!-- <div class="secondrybtn">251 Tours</div> -->
@@ -169,7 +174,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-6 mb-4">
-                    <a href="packages.php" class="populorpackagescard">
+                    <a href="index.php?page=packages" class="populorpackagescard">
                         <span class="populorpackagescardbanner"></span>
 
                         <img src="assets/images/populorpackage/tours/Educational-Tour-Packages-370x375.webp"
@@ -611,37 +616,55 @@ Thank you Ankush for being pro-active and giving us a comfortable, fun and value
             <div class="swiper latestblogSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div href="blogone.php" class="latestblogcard">
+                        <div class="latestblogcard">
                             <img src="assets/images/blogs/1.jpg" alt="burj-al-arab-680x500.jpg">
                             <div class="latestblogcardcontent">
-                                <a href=""><h5 class="headingfour">Your Ultimate Guide To Bali Tour Packages | Money Saving Tips For Indian Travellers</h5></a>
+                                <a href="index.php?page=blogone">
+                                    <h5 class="headingfour">Your Ultimate Guide To Bali Tour Packages | Money Saving Tips For Indian Travellers</h5>
+                                </a>
                             </div>
-
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div  class="latestblogcard">
+                    
+                    <!-- <div class="swiper-slide">
+                        <div class="latestblogcard">
                             <img src="assets/images/blogs/2.png" alt="burj-al-arab-680x500.jpg">
                             <div class="latestblogcardcontent">
-                              <a href="blogtwo.php"> <h5 class="headingfour">Your Ultimate Guide to Bali Tour Packages | Money Saving Tips for Indian Travellers</h5></a>  
+                                <a href="index.php?page=blogtwo">
+                                    <h5 class="headingfour">Your Ultimate Guide to Bali Tour Packages | Money Saving Tips for Indian Travellers</h5>
+                                </a>  
                             </div>
                         </div>
-                    </div>
+                    </div> -->
+                
                     <div class="swiper-slide">
                         <div class="latestblogcard">
                             <img src="assets/images/blogs/3.jpg" alt="burj-al-arab-680x500.jpg">
                             <div class="latestblogcardcontent">
-                            <a  href="blogthree.php"><h5 class="headingfour">Travelling to Sri Lanka from South India | What to Expect and Essential Tips</h5></a>   
-                            
+                                <a href="index.php?page=blogthree">
+                                    <h5 class="headingfour">Travelling to Sri Lanka from South India | What to Expect and Essential Tips</h5>
+                                </a>   
                             </div>
-
                         </div>
                     </div>
+                
                     <div class="swiper-slide">
                         <div class="latestblogcard">
                             <img src="assets/images/blogs/4.avif" alt="indigo">
                             <div class="latestblogcardcontent">
-                            <a  href="blogfour.php"><h5 class="headingfour">IndiGo launches direct flights between Mumbai and Amsterdam</h5></a>   
+                                <a href="index.php?page=blogfour">
+                                    <h5 class="headingfour">IndiGo launches direct flights between Mumbai and Amsterdam</h5>
+                                </a>   
+                            </div>
+                        </div>
+                    </div>
+                       <div class="swiper-slide">
+                        <div class="latestblogcard">
+                            <img src="assets/images/blogs/5.webp" alt="indigo">
+                            <div class="latestblogcardcontent">
+                                <a href="index.php?page=blogfive">
+                                    <h5 class="headingfour">This is the cheapest country to visit from India next month</h5>
+                                </a>   
                             </div>
                         </div>
                     </div>

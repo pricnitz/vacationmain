@@ -2,25 +2,25 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require 'vendor/PHPMailer.php';
-require 'vendor/SMTP.php';
-require 'vendor/Exception.php';
+require 'PHPMailer/PHPMailer.php';
+require 'PHPMailer/SMTP.php';
+require 'PHPMailer/Exception.php';
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $mail = new PHPMailer(true);
     try {
-        // SMTP config for Bluehost
-        $mail->isSMTP();
-        $mail->Host       = 'mail.vacationideas.in';
-        $mail->SMTPAuth   = true;
-        $mail->Username   = 'info@vacationideas.in';       // Bluehost email
-        $mail->Password   = 'Vacationidea123@-';           // Bluehost email password
-        $mail->SMTPSecure = 'ssl';                         // Use SSL for port 465
-        $mail->Port       = 465;
+$mail->isSMTP();
+$mail->Host       = 'smtpout.secureserver.net';
+$mail->SMTPAuth   = true;
+$mail->Username   = 'info@vacationideas.in';       // your full email
+$mail->Password = 'Vactionidea123@-';    // exact webmail password
+$mail->SMTPSecure = 'tls';                         // use tls
+$mail->Port       = 587;                           // 587 for TLS
+                                     // 587 for TLS
 
         // Email content
         $mail->setFrom('info@vacationideas.in', $_POST['contactname']); // from your domain
-        $mail->addAddress('anitesh123.na@gmail.com');                    // recipient
+        $mail->addAddress('travelbest.vacations@gmail.com');                    // recipient
 
         $mail->isHTML(true);
         $mail->Subject = 'New Contact Form Submission';
@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $mail->addReplyTo($_POST['contactemail'], $_POST['contactname']); // optional
 
         $mail->send();
-        header("Location: /contact?success=true");
+                header("Location: /thankyou.php");
         exit;
     } catch (Exception $e) {
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
